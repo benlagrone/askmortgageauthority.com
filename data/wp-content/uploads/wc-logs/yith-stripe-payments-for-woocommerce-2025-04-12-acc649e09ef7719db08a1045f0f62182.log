@@ -1,0 +1,37 @@
+2025-04-12T17:23:48+00:00 INFO GET /brands 200
+Array
+(
+    [bluehost] => Array
+        (
+            [name] => Bluehost
+        )
+
+    [hostgator] => Array
+        (
+            [name] => Hostgator
+        )
+
+)
+
+2025-04-12T17:23:49+00:00 INFO Domain association file updated.
+2025-04-12T17:27:44+00:00 INFO GET /live/hostgator/public-key 200
+pk_live_51OIY4xAJ5HQh7CTk4YW20d7CFcUg9eEVseUYhAD2UM23O82ZwfSsGGl4qm1unjHBavabaSXVqRKjsEYI0tPWnUzR00ZIpRFsaP
+2025-04-12T17:32:18+00:00 INFO GET /live/hostgator/public-key 200
+pk_live_51OIY4xAJ5HQh7CTk4YW20d7CFcUg9eEVseUYhAD2UM23O82ZwfSsGGl4qm1unjHBavabaSXVqRKjsEYI0tPWnUzR00ZIpRFsaP
+2025-04-12T21:39:44+00:00 INFO GET /brands 200
+Array
+(
+    [bluehost] => Array
+        (
+            [name] => Bluehost
+        )
+
+    [hostgator] => Array
+        (
+            [name] => Hostgator
+        )
+
+)
+
+2025-04-12T21:40:07+00:00 INFO GET /live/hostgator/public-key 200
+pk_live_51OIY4xAJ5HQh7CTk4YW20d7CFcUg9eEVseUYhAD2UM23O82ZwfSsGGl4qm1unjHBavabaSXVqRKjsEYI0tPWnUzR00ZIpRFsaP

@@ -1,0 +1,17 @@
+2025-04-19T21:41:24+00:00 INFO GET /brands 200
+Array
+(
+    [bluehost] => Array
+        (
+            [name] => Bluehost
+        )
+
+    [hostgator] => Array
+        (
+            [name] => Hostgator
+        )
+
+)
+
+2025-04-19T21:43:19+00:00 INFO GET /live/hostgator/public-key 200
+pk_live_51OIY4xAJ5HQh7CTk4YW20d7CFcUg9eEVseUYhAD2UM23O82ZwfSsGGl4qm1unjHBavabaSXVqRKjsEYI0tPWnUzR00ZIpRFsaP

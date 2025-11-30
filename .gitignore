@@ -1,0 +1,6 @@
+.env
+data/wp-config.php.backup
+data/wp-content/plugins
+wordpress_data
+db_data
+.DS_Store

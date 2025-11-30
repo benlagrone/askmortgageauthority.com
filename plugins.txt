@@ -1,0 +1,27 @@
+# One plugin slug or URL per line. Lines starting with # are ignored.
+akismet
+all-in-one-seo-pack
+contact-form-7
+creative-mail-by-constant-contact
+feeds-for-youtube
+forminator
+google-analytics-for-wordpress
+google-site-kit
+hello-dolly
+jetpack
+megamenu
+optinmonster
+redirection
+seo-by-rank-math
+woocommerce
+wordpress-seo
+wp-mail-smtp
+wpforms-lite
+youtube-embed-plus
+# Premium/custom sources (add zip URL/file path or host in a private repo):
+# yith-paypal-payments-for-woocommerce-extended
+# yith-shippo-shippings-for-woocommerce-extended
+# yith-stripe-payments-for-woocommerce-extended
+# wp-plugin-hostgator
+# wp-widget-sugarcrm-lead-module
+# wk-google-analytics
