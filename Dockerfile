@@ -13,8 +13,12 @@ RUN set -eux; \
   ; \
   docker-php-ext-configure gd --with-jpeg --with-freetype --with-webp; \
   docker-php-ext-install -j"$(nproc)" gd mysqli; \
-  pecl install imagick; \
-  docker-php-ext-enable imagick; \
+  if ! php -m | grep -qi '^imagick$'; then \
+    pecl install imagick; \
+    docker-php-ext-enable imagick; \
+  else \
+    echo "imagick already present, skipping pecl install"; \
+  fi; \
   rm -rf /var/lib/apt/lists/* /tmp/pear
 
 # Install WP-CLI for plugin/theme management in build/runtime.
