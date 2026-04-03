@@ -1,0 +1,361 @@
+/** Admin panel **/
+
+#yith_ppwc_button_color-wrapper {
+    width: 60%;
+}
+
+#yith_ppwc_button_color-wrapper .yith-plugin-fw-select-images__list {
+    flex-wrap: nowrap;
+}
+
+#yith_ppwc_button_color-wrapper li.yith-plugin-fw-select-images__item, #yith_ppwc_gp_gateway_options[buttonColor]-wrapper li.yith-plugin-fw-select-images__item {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 200px;
+    text-align: center;
+}
+
+#yith_ppwc_button_color-wrapper li.yith-plugin-fw-select-images__item img {
+    margin: 10px auto 15px;
+    width: 169px;
+}
+
+.yith-plugin-fw-radio__row label small {
+    display: block;
+}
+
+.yith_ppwc_login_button .description {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+/**
+Button size field
+**/
+div#yith_ppwc_button_size {
+    width: 200px;
+}
+
+div#yith_ppwc_button_size .yith-plugin-fw-dimensions__dimension > input[type=number].yith-plugin-fw-dimensions__dimension__number {
+    border-radius: 6px !important;
+}
+
+/**
+Login Status
+**/
+
+.onboarding-status span.active {
+    color: rgb(130, 135, 11);
+}
+
+.onboarding-status span.not-active {
+    color: rgb(160, 10, 10);
+}
+
+.onboarding-status-info {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+	flex-direction: column;
+    box-sizing: border-box;
+	border-radius: 10px;
+  	border: 1px solid #ccc;
+}
+
+.onboarding-status-info .info {
+    text-align: left;
+    flex: 1;
+    padding: 5px;
+	display: flex;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
+}
+.onboarding-status-info .info:last-child {
+	border: 0;
+}
+.onboarding-status-info .info > span { flex: 1;}
+
+.onboarding-status-info .info-label {
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+	font-weight: bold;
+}
+
+.onboarding-status-info .info-value {
+    font-weight: 600;
+    text-transform: capitalize;
+	text-align: right;
+    padding: 5px;
+    display: inline-block;
+}
+
+.onboarding-status-info .info .yith-icon svg {
+	width: 33px;
+}
+
+.onboarding-status-info .info .yith-icon.no {
+	color: red;
+}
+
+.onboarding-status-info .info .yith-icon.check {
+	color: #98aa36;
+}
+
+.onboarding-status-note {
+    margin-top: 15px;
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+	background-color: rgba(255,245,245,1);
+	border: 1px solid rgba(197,48,48,1);
+	border-radius: 5px;
+}
+
+.form-table .onboarding-status-note p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+	color: rgba(197,48,48,1);
+}
+
+.onboarding-action-buttons {
+    margin-top: 20px;
+}
+
+.wp-core-ui .yith-plugin-ui .onboarding-action-buttons .button.button-primary {
+    line-height: 28px;
+    text-transform: none;
+    background-color: rgb(48, 103, 153);
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.onboarding-action-buttons .button.button-red {
+    color: rgb(145, 0, 2);
+    border-color: rgb(145, 0, 2);
+    line-height: 29px;
+    background: #fff;
+}
+
+.wp-core-ui .yith-plugin-ui .onboarding-action-buttons .button:hover {
+    filter: brightness(120%);
+}
+
+.yith-ppwc-button-wrapper a[data-paypal-button="PPLtBlue"] {
+    padding-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #329ddb;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex !important;
+    width: auto !important;
+    max-width: 200px !important;
+    align-items: center !important;
+    justify-content: left;
+    height: 42px !important;
+}
+
+.yith-ppwc-button-wrapper a[data-paypal-button="PPLtBlue"]:before {
+    margin-top: 1px;
+    margin-left: -12px;
+}
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items tr.partial-payment td.thumb {
+    position: relative;
+    text-align: center;
+}
+
+table.woocommerce_order_items tr.partial-payment .thumb div::before {
+    font-family: WooCommerce;
+    font-size: 18px;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 0;
+    text-indent: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: '\e00f';
+    color: #ccc
+}
+
+.yith-plugin-fw-dimensions__units {
+    flex-wrap: inherit !important;
+}
+
+small.cc-not-available {
+    padding: 1px 10px;
+    font-style: italic;
+}
+
+/* BH ONBOARDING */
+#yith-bh-onboarding .onboarding-status-info {
+    max-width: 200px;
+}
+
+#yith-bh-onboarding .yith_ppwc_login_button_wrapper {
+    width: auto;
+}
+
+@media (max-width: 1024px) {
+    .yith_ppwc_login_button_wrapper {
+        width: 300px;
+
+    }
+
+    .onboarding-status-info {
+        display: block;
+
+    }
+
+    .onboarding-status-info .info {
+        text-align: left;
+        padding: 10px;
+    }
+
+
+}
+
+@media (max-width: 1920px) {
+    .yith-plugin-ui #plugin-fw-wc h2 + div p, .yith-plugin-ui p.info-box {
+        width: 80% !important;
+    }
+
+    .yith-plugin-ui span.description {
+        max-width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    #yith-bh-onboarding input {
+        width: 85% !important;
+    }
+
+    #yith-bh-onboarding .bh-onboarding-create-an-account td {
+        padding: 20px 0 !important;
+    }
+
+    #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list, #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list li {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list li:before {
+        display: none;
+    }
+
+    #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list p {
+        padding: 8px 0;
+    }
+}
+
+.section-paypal a {
+    text-decoration: none;
+}
+
+.section-paypal a[data-securewindowmsg] {
+    color: rgb(255, 255, 255);
+    padding: 4px 10px 0px 0;
+    text-decoration: none;
+    gap: 0;
+}
+
+.section-paypal a[data-securewindowmsg]::before {
+    margin-top: -4px;
+}
+
+#payment-details a.nfd-link.nfd-link--primary.nfd-button.nfd-button--primary.yith-btn-paypal {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 0.5rem;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #186bde;
+    text-decoration: none
+}
+
+#payment-details a.nfd-link.nfd-link--primary.nfd-button.nfd-button--primary.yith-btn-paypal:before {
+    display: none !important;
+}
+
+
+#payment-details a.nfd-link.nfd-link--primary.nfd-button.nfd-button--primary.yith-btn-paypal::before {
+    margin-top: 0;
+
+}
+
+
+.yith-plugin-fw__panel__section .yith-plugin-fw__panel__section__content .yith_ppwc-disable-field-description {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    background-color: #fef5ea;
+    color: #b86e16;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+.yith_ppwc-disable{
+    opacity: .7;
+    pointer-events: none;
+}
+
+tr[data-gateway_id='yith_paypal_payments'] .wc-payment-gateway-method-name,
+tr[data-gateway_id='yith_paypal_payments_custom_card'] .wc-payment-gateway-method-name{
+    display:none!important;
+}
+
+span.cc-images{
+    margin-left:10px;
+}
+span.cc-images img{
+    height: 24px;
+    width: auto;
+    margin-right: 4px;
+}
+
+span.pp-title {
+    display: inline-flex;
+}
+
+/**
+NF Onboarding style
+ */
+#payment-details .pp-button-wapper a:before {
+    display: none;
+}
+
+.yith-ppcp-hidden-button-wrapper{
+    display: none;
+}
+
+/* apple pay settings css */
+
+.yith-ppwc-options-apple-pay-checks.domain-registration { margin: 10px 0;}
+.yith-ppwc-options-apple-pay-checks.domain-registration > p {
+	background-color: #F7F2F2;
+	border-radius: 5px;
+	padding: 10px 20px;
+  }
+.yith-ppwc-options-apple-pay-checks-container .status_error { color: rgb(145, 0, 2); margin-right: 5px;}
+.yith-ppwc-options-apple-pay-checks-container .status_ok { color: #98aa36; margin-right: 5px;}
+.yith-ppwc-options-apple-pay-checks-container p {
+	margin-top: 10px;
+}
+.yith-ppwc-options-apple-pay-checks.device-eligibility {
+	border-top: 1px solid #bbb;
+	padding-top: 5px;
+  }
+  

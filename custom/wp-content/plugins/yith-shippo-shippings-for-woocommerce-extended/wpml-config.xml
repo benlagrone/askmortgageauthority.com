@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="yith_shippo_default_postage_options">
+            <key name="shipment_description" />
+        </key>
+    </admin-texts>
+
+</wpml-config>

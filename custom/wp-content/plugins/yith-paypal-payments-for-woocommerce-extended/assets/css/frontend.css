@@ -1,0 +1,148 @@
+.yith-ppwc-button-container {
+    margin: 20px 0;
+}
+
+.paypal-button-container {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+#yith-ppwc-cc-form .card_container {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+#yith-ppwc-cc-form .card_field{
+    width: 100%;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height:40px;
+    background:white;
+    font-size:17px;
+    color:#3a3a3a;
+    font-family:helvetica, tahoma, calibri, sans-serif;
+}
+#yith-ppwc-cc-form input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height:40px;
+    background:white;
+    font-size:17px;
+    color:#3a3a3a;
+    font-family:helvetica, tahoma, calibri, sans-serif;
+}
+
+
+
+.yith-ppwc-cardinfo-card-number {
+    position: relative;
+}
+
+#yith-ppwc-cc-form #card-image {
+    position: absolute;
+    top: 34px;
+    right: 1em;
+    width: 44px;
+    height: 28px;
+    background-image: url(../images/card_sprite.png);
+    background-size: 86px 458px;
+    border-radius: 4px;
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+#yith-ppwc-cc-form #card-image.visa {
+    background-position: 0 -398px;
+}
+#yith-ppwc-cc-form #card-image.master-card {
+    background-position: 0 -281px;
+}
+#yith-ppwc-cc-form #card-image.american-express {
+    background-position: 0 -370px;
+}
+#yith-ppwc-cc-form #card-image.discover {
+    background-position: 0 -163px;
+}
+#yith-ppwc-cc-form #card-image.maestro {
+    background-position: 0 -251px;
+}
+#yith-ppwc-cc-form #card-image.jcb {
+    background-position: 0 -221px;
+}
+#yith-ppwc-cc-form #card-image.diners-club {
+    background-position: 0 -133px;
+}
+
+#yith-ppwc-cc-form  .error {
+    font-size: 13px;
+    color: red;
+}
+
+.yith-ppwc-ty-message {
+    padding:20px 0;
+    font-weight:700;
+}
+
+form.checkout .blockUI {
+    z-index: 900!important;
+}
+
+div#yith-ppwc-cc-form label {
+    padding-left: 0!important;
+}
+
+.wc-block-card-elements.payment_method_yith_paypal_payments_custom_card{
+    display: grid;
+    width: 100%;
+    grid-template: "a b c" 100% / 3fr 1fr 1fr;
+}
+
+.yith-ppwc-google-paying-checkout {
+	text-align: center;
+}
+
+body .gpay-button.pay:hover{
+	background-origin: content-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.woocommerce-checkout .wc-block-components-express-payment--checkout .wc-block-components-express-payment__event-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.woocommerce-checkout .wc-block-components-express-payment .wc-block-components-express-payment__event-buttons > li { width: auto;}
+.woocommerce-checkout .wc-block-components-express-payment--checkout .wc-block-components-express-payment__title-container::before {
+	flex: 1 1 0;
+}
+
+#applepay-container {margin-top: 10px; }
+#express-payment-method-yith_ppwc_apple_pay #applepay-container { margin-top: 0px; }
+.wp-block-woocommerce-checkout-express-payment-block apple-pay-button, .wp-block-woocommerce-cart-express-payment-block apple-pay-button {
+	--apple-pay-button-width: 100%;
+	--apple-pay-button-height: 40px;
+	--apple-pay-button-border-radius: 3px;
+	--apple-pay-button-padding: 0px 0px;
+	--apple-pay-button-box-sizing: border-box;
+}
+
+#applepay_button { width: 100%; }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>attention / error_outline</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="42" height="42"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10" transform="translate(-953.000000, -323.000000)">
+            <g id="attention-/-error_outline" transform="translate(950.000000, 320.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="attention-/-error_outline-(Background/Mask)"></g>
+                <path d="M20.9824996,3.5 C11.3224996,3.5 3.5,11.34 3.5,21 C3.5,30.6600008 11.3224996,38.5 20.9824996,38.5 C30.6600008,38.5 38.5,30.6600008 38.5,21 C38.5,11.34 30.6600008,3.5 20.9824996,3.5 C14.5424996,3.5 14.5424996,3.5 20.9824996,3.5 Z M22.75,22.75 L22.75,12.25 L19.25,12.25 L19.25,22.75 L22.75,22.75 L22.75,22.75 Z M22.75,29.75 L22.75,26.25 L19.25,26.25 L19.25,29.75 L22.75,29.75 L22.75,29.75 Z M7,21 C7,28.7350001 13.2649999,35 21,35 C28.7350001,35 35,28.7350001 35,21 C35,13.2649999 28.7350001,7 21,7 C13.2649999,7 7,13.2649999 7,21 C7,26.1566668 7,26.1566668 7,21 Z" fill="#931818" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

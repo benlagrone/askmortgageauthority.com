@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="60px" viewBox="0 0 94 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shipping-rules---Empty-State" transform="translate(-684.000000, -327.000000)">
+            <g id="Group" transform="translate(686.000000, 328.000000)">
+                <g id="shippinh" stroke="#333333" stroke-width="1.44">
+                    <polygon id="Path" points="0 14.8977505 25.0319285 0 50 14.8977505 25.0319285 31"></polygon>
+                    <line x1="25" y1="31" x2="25" y2="58" id="Path"></line>
+                    <polyline id="Path" points="50 15 50 41.1434911 50 41.1434911 25.0319285 58 0 41.1434911 0 41.1434911 0 15"></polyline>
+                    <line x1="12" y1="8" x2="38" y2="23" id="Path"></line>
+                </g>
+                <line x1="59.5" y1="18.5" x2="90.5" y2="19.5" id="Line" stroke="#353535" stroke-width="2" stroke-linecap="square"></line>
+                <line x1="59.5" y1="26.5" x2="77" y2="26" id="Line" stroke="#353535" stroke-width="2" stroke-linecap="square"></line>
+                <line x1="59.5" y1="33.5" x2="71" y2="33" id="Line" stroke="#353535" stroke-width="2" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

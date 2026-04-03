@@ -1,0 +1,1973 @@
+# Translation of YITH Shippo Shippings for WooCommerce in Italian
+# This file is distributed under the same license as the YITH Shippo Shippings for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Shippo Shippings for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-shippo-"
+"shippings-for-woocommerce-extended\n"
+"POT-Creation-Date: 2025-03-24 10:06:38+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:62
+msgid "Rule"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:63
+msgid "Applied to"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:64
+msgid "Active"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:68
+msgid "Shipping zones"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:265
+msgid "Filter by shipping zone"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:399
+msgid "No rule found for this zone"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:436
+msgid "You have no shipping rules created yet."
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:437
+msgid "Create now your first one!"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:438
+msgid "Create rule"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:3
+msgid "Streamlines shipping process"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:7
+msgid ""
+"Shippo makes shipping easier and faster for businesses such as online "
+"retailers and fulfillment\n"
+"        companies. That is because it is scalable, simple, and it allows "
+"them to instantly connect with the most\n"
+"        widely used carrier service providers. Companies are also able to "
+"customize the shipping processes to\n"
+"        suit their specifications and needs. With these, Shippo is able to "
+"streamline shipping processes, provide\n"
+"        high satisfaction to customers, and make delivery of orders faster."
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:19
+msgid "Supports multiple carrier services"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:23
+msgid ""
+"The application supports major carrier services in the market such as FedEx, "
+"DHL, USPS, and UPS. Also,\n"
+"users aren't required to integrate with them one at a time. After just one "
+"integration, users are freely\n"
+"able lo connect with their preferred carriers, send their items anywhere, "
+"and optimize their shipments."
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:33
+msgid "Minimize costs and risks"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:37
+msgid ""
+"Since Shippo will be taking care or every shipping process for users, they "
+"will no longer need to worry\n"
+"about products being sent to the wrong address. The system does a validation "
+"check to see if the\n"
+"shipment is made to an existing and real place. This way, items are "
+"delivered to clients more easily and\n"
+"companies are able to save from expenses that would have been incurred if a "
+"product was sent to a wrong address."
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:48
+msgid "Tracks shipments"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:51
+msgid ""
+"The platform also provides a tracking feature for customers that want to "
+"know their shipment's status.\n"
+"\t\t\t\tClients could be notified via email about the current location of "
+"their item and when it is probably arriving."
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:69
+msgid "Start shipping with the best<br>delivery options in the business"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/bh-onboarding-create-an-account-shippo.php:70
+msgid "Sign Up Free"
+msgstr ""
+
+#. translators: %s is the amount of days
+#: includes/admin/views/custom-fields/types/choose-service.php:57
+msgid "Edit >"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/choose-service.php:61
+msgid "No service selected"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/choose-service.php:65
+msgid "Choose service"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:26
+msgid "Show"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:27
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:34
+msgid "Only if"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:39
+msgid "All these rules"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:40
+msgid "Any of these rules"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:46
+msgid "match:"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:74
+#: includes/admin/views/custom-fields/types/condition-rule.php:137
+msgid "Product"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:75
+#: includes/admin/views/custom-fields/types/condition-rule.php:138
+msgid "Product category"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:82
+#: includes/admin/views/custom-fields/types/condition-rule.php:145
+msgid "is"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:97
+#: includes/admin/views/custom-fields/types/condition-rule.php:159
+msgid "Search for a category..."
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/condition-rule.php:121
+msgid "+ Add condition"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-detail.php:69
+#: includes/shippo-request/class-yith-shippo-request-currier-parcel-template.php:90
+msgid "Parcel"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:114
+msgid "Use the Store Address saved in WooCommerce > Settings"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/onboarding-button.php:24
+msgid "Connect to Shippo"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/onboarding-button.php:33
+msgid "Account connected"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/onboarding-button.php:36
+msgid "Disconnect"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-dimension.php:22
+msgid "Measurements: (LxWxH)"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-dimension.php:78
+msgid "Tare"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-dimension.php:101
+msgid "Total weight"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:58
+msgid "Apply"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/postage-options.php:18
+msgid "Shipment description"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/postage-options.php:25
+msgid "Content"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/postage-options.php:34
+#: includes/admin/views/custom-fields/types/products-shipping.php:57
+#: includes/admin/views/custom-fields/types/products-shipping.php:124
+#: includes/admin/views/product-metabox/product-meta-box.php:40
+#: includes/admin/views/product-metabox/product-variation-meta-box.php:40
+msgid "Country of origin"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/postage-options.php:43
+msgid "Domestic shipping service"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/postage-options.php:52
+msgid "International shipping service"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/postage-options.php:61
+#: includes/admin/views/custom-fields/types/products-shipping.php:63
+#: includes/admin/views/custom-fields/types/products-shipping.php:130
+#: includes/admin/views/product-metabox/product-meta-box.php:33
+#: includes/admin/views/product-metabox/product-variation-meta-box.php:33
+msgid "Tariff number"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/products-shipping.php:16
+msgid "All"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/products-shipping.php:50
+#: includes/admin/views/custom-fields/types/products-shipping.php:117
+msgid "Products to include in this shipping:"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/products-shipping.php:69
+#: includes/admin/views/custom-fields/types/products-shipping.php:136
+msgid "Qty"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/products-shipping.php:77
+#: includes/admin/views/custom-fields/types/products-shipping.php:144
+msgid "Value"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/products-shipping.php:98
+msgid "+ Add product"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/shipping-zones.php:45
+msgid "Select all"
+msgstr ""
+
+#: includes/admin/views/onboarding/onboarding-status.php:111
+msgid "Successfully connected to your Shippo account!"
+msgstr ""
+
+#. translators: %s is the amount of days
+#: includes/admin/views/order-metabox/html-single-rate-confirmed-view.php:53
+msgid "Products in this shipping:"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-confirmed-view.php:63
+msgid "Pay shipment"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-confirmed-view.php:66
+#: includes/class-yith-shippo-assets.php:333
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:203
+msgid "Create shipment"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:211
+msgid "Delete shipment"
+msgstr ""
+
+#. translators: %s is the amount of days
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:47
+msgid "Estimated delivery in"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:47
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:83
+msgid "Check for updates"
+msgstr ""
+
+#: includes/admin/views/order-metabox/shipping-meta-box.php:75
+msgid "+ Add Shipping"
+msgstr ""
+
+#. translators: string printed in the shipment tracking column of the orders
+#. page.
+#: includes/admin/views/orders-page/shipment-tracking.php:25
+msgid "Not shipped yet"
+msgstr ""
+
+#. translators: string printed in the shipment tracking column of the orders
+#. page.
+#: includes/admin/views/orders-page/shipment-tracking.php:29
+msgid "Create your shipment"
+msgstr ""
+
+#. translators: %1$s is the index of shippings. %2$s is the total of shippings.
+#. String shown on the orders page, when there are 2 or more shippings paid.
+#: includes/admin/views/orders-page/shipment-tracking.php:46
+msgid "Shipping %1$s of %2$s"
+msgstr ""
+
+#. translators: string printed in the shipment tracking column of the orders
+#. page.
+#: includes/admin/views/orders-page/shipment-tracking.php:55
+msgid "Track shipment"
+msgstr ""
+
+#: includes/admin/views/product-metabox/product-meta-box.php:57
+#: includes/admin/views/product-metabox/product-variation-meta-box.php:57
+msgid ""
+"Set the country of origin for this product. This is required for "
+"international shipments."
+msgstr ""
+
+#: includes/admin/views/product-metabox/product-variation-meta-box.php:21
+msgid "Same origin as parent"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:53
+msgid "Rule name"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:67
+msgid "Enter a name to indentify this rule."
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:75
+msgid "Apply rule to zones:"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:90
+msgid "Choose which shipping zone to apply this rule to."
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:98
+msgid "Apply rule to service:"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:124
+msgid "Set conditions"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:138
+msgid "Enable to set in which conditions to show or hide the selected service."
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:143
+msgid "Conditions"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:163
+msgid "Add fee to shipping rates"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:187
+msgid "Fee to charge"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:200
+msgid "A fixed amount of "
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:201
+msgid "A percentage amount of"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:218
+msgid "Set the fee charge."
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:224
+msgid "Customize label"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:238
+msgid "Enable to set a custom label to show for this service."
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:243
+msgid "Custom service label"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:257
+msgid "Set a custom label for this service."
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:265
+msgid "Save rule"
+msgstr ""
+
+#. translators: Failed message on Products validation modal. %s is the number
+#. of products.
+#: includes/admin/views/shipping/validate-products-modal.php:50
+msgid ""
+"Warning: weight or dimensions missing for the following %s product(s). "
+"Please, fix:"
+msgstr ""
+
+#. translators: Close button on Products validation modal.
+#: includes/admin/views/shipping/validate-products-modal.php:64
+msgid "Close"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:176
+msgid ""
+"Shippo is the best multi-carrier shipping software for e-commerce "
+"businesses. With this plugin you can connect your Shippo account to manage "
+"shippins of products sold in your shop"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:181
+msgid "Are your ready? Create your <mark>parcel boxes table</mark>"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:182
+msgid ""
+"Start from Step 1: Populate the table with the boxes that you will use to "
+"ship your items."
+msgstr ""
+
+#. translators: Added column title on WooCommerce Orders page.
+#: includes/class-yith-shippo-admin.php:543
+msgid "Shipment Tracking"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:577
+msgid "YITH Shippo Shippings"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:616
+msgid "General Options"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:620
+msgid "Shipping Settings"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:624
+msgid "Parcel Packing"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:628
+#: plugin-options/shipping/rates-options.php:70
+msgid "Checkout"
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:642
+msgid "Shippo Shippings"
+msgstr ""
+
+#. translators: %s is the list of tracking status
+#: includes/class-yith-shippo-admin.php:805
+msgid "All shippings have one of these statuses: %s."
+msgstr ""
+
+#: includes/class-yith-shippo-admin.php:837
+#: includes/shippo-request/class-yith-shippo-request.php:241
+msgid "Error: impossible to complete the onboarding."
+msgstr ""
+
+#. translators: error message if products validation fails.
+#: includes/class-yith-shippo-ajax.php:86
+msgid "There was an error while validating the products."
+msgstr ""
+
+#: includes/class-yith-shippo-ajax.php:572
+msgid "YITH Shippo is not connected to your account."
+msgstr ""
+
+#: includes/class-yith-shippo-ajax.php:620
+msgid "Sender info updated"
+msgstr ""
+
+#: includes/class-yith-shippo-ajax.php:625
+msgid "Address validation error:"
+msgstr ""
+
+#: includes/class-yith-shippo-ajax.php:630
+msgid "There was an error while validating the sender info."
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:290
+msgid "This field is required."
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:291
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:327
+msgid "Shipping services"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:328
+msgid "Shipping services: no rates found"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:331
+msgid "Confirm delete shipment"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:332
+msgid "Are you sure you want to delete this shipping?"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:336
+msgid "Confirm create shipment"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:337
+msgid ""
+"Are you sure you want to create this shipment? This information cannot be "
+"edited later on."
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:338
+msgid "Create"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:339
+msgid "Error creating the shipment"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:342
+msgid "The shipment can't be created"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:343
+msgid "You need to select a service first."
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:346
+msgid "Confirm payment"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:347
+msgid "Are you sure you want to pay for this shipment?"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:348
+msgid "Pay"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:349
+msgid "The payment can't be processed"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:372
+msgid "Confirm disconnect?"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:373
+msgid "Are you sure you want to disconnect from Shippo?"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:374
+msgid "Disconnect!"
+msgstr ""
+
+#. translators: Error shown in the checkout page when the address validation
+#. fails.
+#: includes/class-yith-shippo-shipping-frontend.php:83
+msgid "There is an error in address validation."
+msgstr ""
+
+#: includes/class-yith-shippo-wc-shipping.php:105
+msgid ""
+"Enable the real-time shipping rates to print the labels and manage trackings!"
+msgstr ""
+
+#. translators: the placeholders are tag html.
+#: includes/class-yith-shippo-wc-shipping.php:108
+msgid "%1$sAdd sender info for this zone%2$s"
+msgstr ""
+
+#. translators: the placeholders are tag html.
+#: includes/class-yith-shippo-wc-shipping.php:117
+msgid "%1$sAdd service rules for this zone%2$s"
+msgstr ""
+
+#. translators: the placeholders are tag html.
+#: includes/class-yith-shippo-wc-shipping.php:126
+msgid "%1$sAdd parcels for this zone%2$s"
+msgstr ""
+
+#: includes/class-yith-shippo-wc-shipping.php:169
+msgid ""
+"YITH Shippo Shippings: No rates found, please check your products or your "
+"parcels"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:223
+#: includes/emails/class-yith-shippo-shipment-details.php:240
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:225
+#: includes/emails/class-yith-shippo-shipment-details.php:242
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:229
+#: includes/emails/class-yith-shippo-shipment-details.php:246
+msgid "\"From\" Name"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:236
+#: includes/emails/class-yith-shippo-shipment-details.php:253
+msgid "\"From\" Email Address"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:243
+#: includes/emails/class-yith-shippo-shipment-details.php:260
+msgid "Subject"
+msgstr ""
+
+#. translators: placeholder is default subject.
+#: includes/emails/class-yith-shippo-shipment-admin.php:246
+#: includes/emails/class-yith-shippo-shipment-details.php:263
+msgid ""
+"This field lets you modify the email subject line. Leave it blank to use the "
+"default subject text: <code>%s</code>. You can use {order_id} as a "
+"placeholder that will show the order ID in the email."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:253
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:255
+#: includes/emails/class-yith-shippo-shipment-details.php:278
+msgid ""
+"Enter further recipients (separated by commas) for this email. By default, "
+"it's sent to the admin."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:260
+#: includes/emails/class-yith-shippo-shipment-details.php:283
+msgid "Email heading"
+msgstr ""
+
+#. translators:placeholder is default heading.
+#: includes/emails/class-yith-shippo-shipment-admin.php:263
+#: includes/emails/class-yith-shippo-shipment-details.php:286
+msgid ""
+"This field lets you change the main heading in email notifications. Leave it "
+"blank to use the default heading type: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:268
+#: includes/emails/class-yith-shippo-shipment-details.php:291
+msgid "Email title"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:271
+#: includes/emails/class-yith-shippo-shipment-details.php:294
+msgid "Your package is on its way!"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:274
+#: includes/emails/class-yith-shippo-shipment-details.php:297
+msgid "Email description"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:277
+msgid ""
+"Hi,\n"
+"Unfortunately, there is an issue with the delivery of the order {order_id}. "
+"We suggest contacting the {carrier_name} carrier to get more information."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:282
+msgid "Available placeholders:"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:285
+#: includes/emails/class-yith-shippo-shipment-details.php:307
+msgid "Email type"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:287
+#: includes/emails/class-yith-shippo-shipment-details.php:309
+msgid "Choose email format."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:270
+msgid "Send Bcc copy"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:272
+msgid "Send a blind carbon copy to the administrator."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:276
+msgid "Bcc Recipient(s)"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:300
+msgid ""
+"Hi {customer_name},\n"
+"Great news! We have just shipped the order {order_id} you placed on "
+"{order_date}."
+msgstr ""
+
+#. translators: %s is the amount of days
+#: includes/shippo-request/class-yith-shippo-request-shipment-manager.php:136
+msgid "Estimated delivery in %s day"
+msgid_plural "Estimated delivery in %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/shippo-request/class-yith-shippo-request.php:165
+msgid "YITH Shippo Shippings for WooCommerce is enabled but not effective."
+msgstr ""
+
+#: includes/shippo-request/class-yith-shippo-request.php:202
+msgid "YITH Shippo is not connected to your account"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:473
+msgid "All services"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:702
+msgid "Merchandise"
+msgstr ""
+
+#: init.php:61
+msgid ""
+"YITH Shippo Shippings for WooCommerce is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#. translators: %s is the current PHP version.
+#: init.php:77
+msgid ""
+"YITH Shippo Shippings for WooCommerce is enabled but not effective. It "
+"requires at least PHP 7.4, you are using %s version."
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:15
+msgid "The best multi-carrier shipping software for e-commerce businesses."
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:16
+msgid "Connect your store to Shippo"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:19
+msgid "I already have an account on Shippo"
+msgstr ""
+
+#. translators:Placeholders are HTML tags.
+#: plugin-options/bh-onboarding-options.php:21
+msgid ""
+"%1$sIf you already have an account on Shippo%2$s, enter the info below to "
+"connect your store."
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:25
+#: plugin-options/general-options.php:14
+msgid "Environment"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:29
+#: plugin-options/general-options.php:18
+msgid "Live"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:30
+#: plugin-options/general-options.php:19
+msgid "Sandbox"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:33
+msgid ""
+"Select to create and pay real shippings or to test without the need to pay "
+"the postage"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:37
+#: plugin-options/general-options.php:26
+msgid "Connect account"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:40
+msgid "Click on the button to connect your Shippo account"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:77
+msgid "Create an account"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:78
+msgid ""
+"Create a free account on Shippo and start shipping with the best delivery "
+"options in the business."
+msgstr ""
+
+#: plugin-options/checkout-options.php:14
+msgid "Validate shipping address"
+msgstr ""
+
+#: plugin-options/checkout-options.php:17
+msgid ""
+"Enable to validate shipping address before allowing users to proceed with "
+"the order."
+msgstr ""
+
+#: plugin-options/checkout-options.php:22
+msgid "Require company name"
+msgstr ""
+
+#: plugin-options/checkout-options.php:25
+msgid ""
+"Enable to make company name mandatory for users during the checkout process."
+msgstr ""
+
+#: plugin-options/general-options.php:22
+msgid ""
+"Choose if you want to create and pay real shippings or test without paying "
+"postage."
+msgstr ""
+
+#: plugin-options/general-options.php:29
+msgid "Click on the button to connect your Shippo account."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:26
+msgid "Validate products weight and dimensions"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:32
+msgid "Validate products"
+msgstr ""
+
+#. translators: Description of 'Validate products weight and dimensions'
+#. option. Placeholders are html tags.
+#: plugin-options/shipping/rates-options.php:35
+msgid ""
+"Products must have weight and dimensions set for live shipping rates to "
+"work. %s Click on the button to check if all your products are properly "
+"configured."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:41
+msgid "Manage shipping rates according to shipping zones"
+msgstr ""
+
+#. translators: the placeholder are html tag
+#: plugin-options/shipping/rates-options.php:43
+msgid ""
+"Enable to set for which destinations the plugin's shipping rates will be "
+"displayed.%1$sNote:%2$s if you enable this option, you need to associate the "
+"plugin features in your Shipping Zones or no shipping rates will be "
+"displayed.%3$sRead more about %4$s how to use Shipping Zones with Shippo "
+">%5$s."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:57
+msgid "Show live shipping rates on Cart and Checkout pages"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:60
+msgid "Enable to show the live shipping rates on the Cart and Checkout pages."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:65
+msgid "Calculate shipping rates on"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:69
+msgid "Cart and Checkout"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:73
+msgid "Choose on which pages to quote shipping rates."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:83
+msgid "Require insurance"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:86
+msgid "Enable to show only shipping methods with an insurance included."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:96
+msgid "Require signature"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:99
+msgid "Enable to show only shipping methods that support signature service."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:109
+msgid "Limit rates to show"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:112
+msgid ""
+"Enable to limit the number of rates to display on the Cart and Checkout "
+"pages."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:122
+msgid "Max rates to show"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:125
+msgid "Set the maximum number of shipping rates to show."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:137
+msgid "Filter rates according to their cost"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:140
+msgid "Enable to show/hide rates based on their cost."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:152
+msgid "Show rates with a"
+msgstr ""
+
+#. translators: %s is the currency symbol
+#: plugin-options/shipping/rates-options.php:157
+msgid "minimum cost of %s"
+msgstr ""
+
+#. translators: %s is the currency symbol
+#: plugin-options/shipping/rates-options.php:172
+msgid "and a maximum cost of %s"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:190
+msgid ""
+"Set the minimum and the maximum cost of rates you want to show. Leave empty "
+"if you want to set only one value."
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:194
+msgid "Show delivery time"
+msgstr ""
+
+#: plugin-options/shipping/rates-options.php:197
+msgid ""
+"Enable to show the estimated delivery time in the shipping method section."
+msgstr ""
+
+#: plugin-options/shipping/rules-options.php:51
+msgid "Add rule"
+msgstr ""
+
+#: plugin-options/shipping-options.php:17
+msgid "Sender Info"
+msgstr ""
+
+#: plugin-options/shipping-options.php:18
+msgid ""
+"Set the default sender info to use for shippings. You can set different "
+"sender info for the different shipping zones you created."
+msgstr ""
+
+#: plugin-options/shipping-options.php:21
+msgid "Shipping Rates"
+msgstr ""
+
+#: plugin-options/shipping-options.php:24
+msgid "Shipping Rules"
+msgstr ""
+
+#: plugin-options/shipping-options.php:27
+msgid "Shipping Tracking"
+msgstr ""
+
+#: templates/emails/shipment-products.php:28
+msgid "Items in this shipment:"
+msgstr ""
+
+#: templates/my-account/shipping-table.php:19
+msgid "Shipping info"
+msgstr ""
+
+#: templates/my-account/shipping-table.php:33
+msgid "Order picked up by"
+msgstr ""
+
+#: templates/my-account/shipping-table.php:37
+msgid "Estimated delivery date"
+msgstr ""
+
+#: templates/my-account/shipping-table.php:41
+msgid "Status"
+msgstr ""
+
+#: templates/my-account/shipping-table.php:45
+msgid "Tracking code"
+msgstr ""
+
+#: templates/my-account/shipping-table.php:49
+msgid "Track your order"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Shippo Shippings for WooCommerce</strong></code> adds "
+"Shippo live rates into WooCommerce shipping methods. <a href =\"https://"
+"yithemes.com\">Get more plugins for your e-commerce shop on <strong>YITH</"
+"strong></a>."
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:102
+msgctxt "[ADMIN] Empty admin table column"
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:172
+msgctxt "[ADMIN] Shipping rules table"
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:185
+msgctxt "[ADMIN] Shipping rules table"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:197
+msgctxt "[ADMIN] Confirmation popup before deleting an item"
+msgid "Confirm delete"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:198
+msgctxt "[ADMIN] Confirmation popup before deleting an item"
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:199
+msgctxt "[ADMIN] Confirmation popup before deleting an item"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:231
+msgctxt "[ADMIN] Shipping rule bulk actions"
+msgid "Delete shipping rule"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:232
+msgctxt "[ADMIN] Shipping rule bulk actions"
+msgid "Active shipping rule"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:233
+msgctxt "[ADMIN] Shipping rule bulk actions"
+msgid "Deactivate shipping rule"
+msgstr ""
+
+#: includes/admin/list-tables/class-yith-shippo-shipping-rule-list-table.php:280
+msgctxt "[ADMIN] Filter button label"
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:100
+msgctxt "[ADMIN] add parcel modal"
+msgid "Parcel name"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:106
+msgctxt "[ADMIN] add parcel modal"
+msgid "Type"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:113
+#: includes/admin/views/custom-fields/types/content/sender-form.php:205
+msgctxt "[ADMIN] add parcel modal"
+msgid "Shipping zones"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:120
+msgctxt "[ADMIN] add parcel modal"
+msgid "Length"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:127
+msgctxt "[ADMIN] add parcel modal"
+msgid "Width"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:133
+msgctxt "[ADMIN] add parcel modal"
+msgid "Height"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:139
+msgctxt "[ADMIN] add parcel modal"
+msgid "Weight"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:145
+msgctxt "[ADMIN] add parcel modal"
+msgid "Inner padding"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:151
+msgctxt "[ADMIN] add parcel modal"
+msgid "Max weight"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:158
+msgctxt "[ADMIN] add parcel modal"
+msgid "Save box"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-box.php:160
+msgctxt "[ADMIN] add parcel modal"
+msgid "Add box"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-detail.php:28
+msgctxt "Tip to edit the parcel"
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/parcel-detail.php:35
+msgctxt "Tip to delete the parcel"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-detail.php:20
+msgctxt "Tip to edit the sender info"
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-detail.php:31
+msgctxt "Tip to delete the sender info"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-detail.php:72
+msgctxt "set sender as default"
+msgid "set default"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-detail.php:74
+msgctxt "ADMIN badge that shows the default sender info"
+msgid "default"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:34
+msgctxt "ADMIN form label"
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:52
+msgctxt "ADMIN form label"
+msgid "Company"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:68
+msgctxt "ADMIN form label"
+msgid "Email"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:84
+msgctxt "ADMIN form label"
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:118
+msgctxt "ADMIN form label"
+msgid "Address line 1"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:134
+msgctxt "ADMIN form label"
+msgid "Address line 2"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:150
+msgctxt "ADMIN form label"
+msgid "City"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:166
+msgctxt "ADMIN form label"
+msgid "ZIP/Postal Code"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:184
+msgctxt "ADMIN form label"
+msgid "Choose a country"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:229
+msgctxt "[ADMIN] save sender"
+msgid "Save"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/content/sender-form.php:231
+msgctxt "[ADMIN] add sender"
+msgid "Add sender"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:29
+msgctxt "bulk action placeholder"
+msgid "Bulk actions"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:30
+msgctxt "bulk action to activate the parcels"
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:31
+msgctxt "bulk action to deactivate the parcels"
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:32
+msgctxt "bulk action to delete the parcels"
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:68
+msgctxt "Name of parcel box"
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:69
+msgctxt "Type of parcel box"
+msgid "Type"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:70
+msgctxt "Measurements of parcel box"
+msgid "Measurements (LxWxH)"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:71
+msgctxt "Weight of parcel box"
+msgid "Weight"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:72
+msgctxt "Inner padding of parcel box"
+msgid "Inner padding"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:73
+msgctxt "Maximum weight of parcel box"
+msgid "Max weight"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:75
+msgctxt "list of shipping zone where the parcel is activated"
+msgid "Shipping Zone"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:77
+msgctxt "Set a parcel box active"
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/parcel-list.php:100
+msgctxt "Add parcel box button label"
+msgid "+ Add box"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/postage-options.php:13
+msgctxt "Placeholder to invite the admin to select a shippo service"
+msgid "Select a service"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/sender-info.php:29
+msgctxt "Name of sender"
+msgid "Sender"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/sender-info.php:30
+msgctxt "list of shipping zone where the sender is activated"
+msgid "Shipping Zone"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/sender-info.php:55
+msgctxt "Add sender button label"
+msgid "+ Add sender"
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/sender-info.php:91
+msgctxt "description of \"Sender info\" section"
+msgid ""
+"Set the default address of the place from where parcels are going to be "
+"shipped. It will be printed in shipping labels."
+msgstr ""
+
+#: includes/admin/views/custom-fields/types/sender-info.php:103
+msgctxt "ADMIN sender info label"
+msgid "Set sender info"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:31
+msgctxt "Is the name of parcel if no package are found"
+msgid "Single product"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:118
+msgctxt "Label for the option package typs inside each shipping"
+msgid "Package type:"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:142
+msgctxt "Label for the option content inside each shipping"
+msgid "Content:"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:147
+msgctxt "Label for the option content inside each shipping"
+msgid "Description:"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:164
+msgctxt "Label for the option return label inside each shipping"
+msgid "Return label"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:165
+msgctxt "Label for the option include insurance inside each shipping"
+msgid "Include insurance"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-rate-view.php:166
+msgctxt "Label for the option signature required inside each shipping"
+msgid "Signature required"
+msgstr ""
+
+#. translators: %s is the current index
+#: includes/admin/views/order-metabox/html-single-shipping-view.php:29
+msgctxt "Placeholder is the current index of the shipping"
+msgid "Shipping %s"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:53
+msgctxt "label for the tracking status"
+msgid "Shippo status:"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:57
+msgctxt "label for the carrier link to check the tracking information"
+msgid "Tracking:"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:60
+msgctxt "name of url of carrier link to check the tracking information"
+msgid "Track your shipping"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:69
+msgctxt "label for the link to download the shipping label"
+msgid "Label:"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:73
+msgctxt "[ADMIN] Label to identify the boxes"
+msgid "Open label"
+msgstr ""
+
+#. translators: string printed in the shipment tracking column of the orders
+#. page.
+#: includes/admin/views/orders-page/shipment-tracking.php:65
+msgctxt "[ADMIN] Label to identify the boxes"
+msgid "View label"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:87
+msgctxt "title of tracking status on order details"
+msgid "Status"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:122
+msgctxt "label to describe that was an issue during the shipping"
+msgid "Delivery issue"
+msgstr ""
+
+#: includes/admin/views/order-metabox/html-single-tracking-view.php:138
+msgctxt "link name to open or close the history list"
+msgid "View all details"
+msgstr ""
+
+#. translators: string printed in the shipment tracking column of the orders
+#. page.
+#: includes/admin/views/orders-page/shipment-tracking.php:50
+msgctxt "[ADMIN] Service of the shipment"
+msgid "Service"
+msgstr ""
+
+#. translators: string printed in the shipment tracking column of the orders
+#. page.
+#: includes/admin/views/orders-page/shipment-tracking.php:60
+msgctxt "[ADMIN] Status of the shipment"
+msgid "Status"
+msgstr ""
+
+#. translators: the placeholders are html tags.
+#: includes/admin/views/product-metabox/product-meta-box.php:17
+#: includes/admin/views/product-metabox/product-variation-meta-box.php:23
+msgctxt "yith-shippo-shippings-for-woocommerce"
+msgid ""
+"Set the tariff number for the international shipments. You can find your "
+"tariff number %1$shere%2$s. Leave empty to use the default value."
+msgstr ""
+
+#. translators: Placeholders are html tags.
+#: includes/admin/views/shipping/shipping-rule-details.php:180
+msgctxt "yith-shippo-shippings-for-woocommerce"
+msgid ""
+"Enable to add an extra fee to the cost of this shipping service.%1$sNote:"
+"%2$s this option will override the default fee option in the %3$sShipping "
+"Rates%4$s tab."
+msgstr ""
+
+#. translators: the placeholders are html tags.
+#: plugin-options/parcel/postage-options.php:12
+msgctxt "yith-shippo-shippings-for-woocommerce"
+msgid ""
+"Enter the default info to use in customs declarations as a description of "
+"the contents of your shipments. %1$sNote%2$s: you can override this default "
+"info for each order."
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:24
+msgctxt "[ADMIN] title to add a new shipping rule"
+msgid "Add new rule"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:27
+msgctxt "[ADMIN] title to edit a new shipping rule"
+msgid "Edit rule"
+msgstr ""
+
+#: includes/admin/views/shipping/shipping-rule-details.php:39
+msgctxt "[ADMIN] Shipping rule details panel"
+msgid "Back to rules list"
+msgstr ""
+
+#. translators: Placeholders are html tags.
+#: includes/admin/views/shipping/shipping-rule-details.php:117
+msgctxt "Placeholders are html tags"
+msgid ""
+"Choose which shipping service to apply the rule to.%1$sNote:%2$s you can "
+"create only one rule for each shipping service."
+msgstr ""
+
+#. translators: Products validation modal title.
+#: includes/admin/views/shipping/validate-products-modal.php:29
+msgctxt "[Admin] Validate products dimension modal title"
+msgid "Validate products"
+msgstr ""
+
+#. translators: Success title on Products validation modal.
+#: includes/admin/views/shipping/validate-products-modal.php:36
+msgctxt "[Admin] Success message in Products validation"
+msgid "Everything worked like a charm!"
+msgstr ""
+
+#. translators: Success message on Products validation modal.
+#: includes/admin/views/shipping/validate-products-modal.php:40
+msgctxt "[Admin] Success message in products validation"
+msgid "All products are properly configured with weight and dimensions."
+msgstr ""
+
+#. translators: 1. Shippung rule id.
+#: includes/class-yith-shippo-admin.php:353
+msgctxt "[ADMIN] Shipping rule details page"
+msgid "Shipping rule #%d doesn't exist"
+msgstr ""
+
+#: includes/class-yith-shippo-ajax.php:384
+msgctxt "Error displayed if the confirm of the shipment is not completed"
+msgid "An error occurred while processing the shipment confirmation."
+msgstr ""
+
+#: includes/class-yith-shippo-ajax.php:416
+msgctxt "Error displayed if the payment of shipping is not completed"
+msgid "An error occurred while processing the shipping payment."
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:260
+msgctxt "title of modal to add a new parcel box"
+msgid "Add box"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:261
+msgctxt "title of modal to edit a parcel box"
+msgid "Edit box"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:262
+msgctxt "title of modal to confirm deleting parcel boxes"
+msgid "Delete confirmation"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:263
+msgctxt "message of modal to confirm deleting parcel boxes"
+msgid "Are you sure you want to delete the parcel box?"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:289
+msgctxt "title of modal to add or update a sender info"
+msgid "Sender Info"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:292
+msgctxt "title of modal to confirm deleting sender info"
+msgid "Delete confirmation"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:293
+msgctxt "message of modal to confirm deleting sender info"
+msgid "Are you sure you want to delete the sender info?"
+msgstr ""
+
+#: includes/class-yith-shippo-assets.php:351
+msgctxt "Is the label of the button to close the error popup"
+msgid "Ok"
+msgstr ""
+
+#: includes/class-yith-shippo-parcels.php:318
+msgctxt "generic name of a parcel created inside the order"
+msgid "Custom parcel"
+msgstr ""
+
+#: includes/class-yith-shippo-parcels.php:361
+#: includes/class-yith-shippo-parcels.php:365
+msgctxt "Error message showed when the items do not fit inside the parcel"
+msgid "Please, check the products and parcel chosen."
+msgstr ""
+
+#: includes/data-stores/class-yith-shippo-parcel-box-data-store.php:119
+msgctxt "error notice"
+msgid "Invalid parcel box."
+msgstr ""
+
+#: includes/data-stores/class-yith-shippo-tracking-data-store.php:111
+msgctxt "error notice"
+msgid "Invalid tracking."
+msgstr ""
+
+#: includes/data-stores/class-yith-shippo-shipping-rule-data-store.php:88
+msgctxt ""
+"[DEV] Debug message triggered when unable to create shipping rule record."
+msgid "Unable to register rule. Missing required params."
+msgstr ""
+
+#: includes/data-stores/class-yith-shippo-shipping-rule-data-store.php:100
+msgctxt "[DEV] Debug message triggered if a rule already exists."
+msgid ""
+"Unable to register rule. A rule for this shipping service already exists."
+msgstr ""
+
+#: includes/data-stores/class-yith-shippo-shipping-rule-data-store.php:162
+msgctxt ""
+"[DEV] Debug message triggered when unable to find shipping rule record."
+msgid "Invalid shipping rule."
+msgstr ""
+
+#: includes/data-stores/class-yith-shippo-shipping-rule-data-store.php:183
+msgctxt "[DEV] Debug message triggered when unable to find click record."
+msgid "Invalid shipping rule."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:30
+msgctxt "Admin: Email title on WooCommerce > Emails"
+msgid "[YITH Shippo Shippings] Shipment tracking for admin"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:36
+msgctxt "Admin: Email title on WooCommerce > Emails"
+msgid "[YITH Shippo Shippings] Shipment tracking"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:31
+msgctxt "Admin: Email description on WooCommerce > Emails"
+msgid "This email is sent when the shipment tracking goes wrong."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:37
+msgctxt "Admin: Email description on WooCommerce > Emails"
+msgid "This email is sent when the shipment tracking is updated."
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:33
+msgctxt "Header of email that alerts the administrator"
+msgid "Alert: there is an issue with your delivery"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-admin.php:34
+msgctxt "Subject of email that alerts the administrator"
+msgid "[Shipment details]"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:39
+msgctxt "Email header sent to customer"
+msgid "Your package is on its way!"
+msgstr ""
+
+#: includes/emails/class-yith-shippo-shipment-details.php:40
+msgctxt "Email subject sent to customer"
+msgid "[Shipment details]"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:263
+msgctxt "type of postage content"
+msgid "Merchandise"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:264
+msgctxt "type of postage content"
+msgid "Documents"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:265
+msgctxt "type of postage content"
+msgid "Gift"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:266
+msgctxt "type of postage content"
+msgid "Returned goods"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:267
+msgctxt "type of postage content"
+msgid "Humanitarian donation"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:268
+msgctxt "type of postage content"
+msgid "Other"
+msgstr ""
+
+#: includes/yith-shippo-functions.php:797
+msgctxt "Generic shipping zones"
+msgid "Others"
+msgstr ""
+
+#: plugin-options/bh-onboarding-options.php:49
+#: plugin-options/general-options.php:38
+msgctxt "label of admin option"
+msgid "Shippo Sandbox / Test API Token"
+msgstr ""
+
+#: plugin-options/parcel/parcel-adjustment-options.php:35
+msgctxt "label of admin option"
+msgid "Set the minimum weight and dimensions of the parcel"
+msgstr ""
+
+#: plugin-options/parcel/parcel-adjustment-options.php:63
+msgctxt "label of admin option"
+msgid "Set an additional weight"
+msgstr ""
+
+#: plugin-options/parcel/parcel-adjustment-options.php:72
+msgctxt "label of admin option"
+msgid "Add to weight"
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:36
+msgctxt "label of admin option"
+msgid "Combine boxes in a single package"
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:49
+msgctxt "label of admin option"
+msgid "Use cube dimensions"
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:65
+msgctxt "label of admin option"
+msgid "Shipping Label format"
+msgstr ""
+
+#. translators: placeholders are html tags.
+#: plugin-options/bh-onboarding-options.php:52
+#: plugin-options/general-options.php:40
+msgctxt "description of admin option, placeholders are html tags"
+msgid ""
+"Enter the Shippo Test API Token. You can find it in your %1$sShippo "
+"account%2$s on Settings -> Integrations -> API page."
+msgstr ""
+
+#. translators: placeholders are html tags.
+#: plugin-options/parcel/parcel-adjustment-options.php:37
+msgctxt "label of admin option. Placeholder are html tags"
+msgid ""
+"Set adjustments to the dimensions and weight of a parcel before the plugin "
+"requests shipping rates for it.%1$sNote%2$s: the plugin will use these "
+"values to quote shipping rates even when products don’t have any dimensions "
+"set or are too small."
+msgstr ""
+
+#. translators:placeholder is the current length dimension set on the store.
+#: plugin-options/parcel/parcel-adjustment-options.php:43
+msgctxt ""
+"label of option; placeholder is the current length dimension set on the store"
+msgid "Min length (%s)"
+msgstr ""
+
+#. translators:placeholder is the current width dimension set on the store.
+#: plugin-options/parcel/parcel-adjustment-options.php:45
+msgctxt ""
+"label of option; placeholder is the current width dimension set on the store."
+msgid "Min width (%s)"
+msgstr ""
+
+#. translators:placeholder is the current heigth dimension set on the store.
+#: plugin-options/parcel/parcel-adjustment-options.php:47
+msgctxt ""
+"label of option; placeholder is the current heigth dimension set on the store"
+msgid "Min height (%s)"
+msgstr ""
+
+#. translators:placeholder is the current weigth dimension set on the store.
+#: plugin-options/parcel/parcel-adjustment-options.php:49
+msgctxt ""
+"label of option; placeholder is the current weigth dimension set on the store"
+msgid "Min weight (%s)"
+msgstr ""
+
+#: plugin-options/parcel/parcel-adjustment-options.php:64
+msgctxt "description of admin option"
+msgid ""
+"Enable to increase the weight of the parcel (useful if you typically include "
+"promotional materials, gadgets, etc.)"
+msgstr ""
+
+#: plugin-options/parcel/parcel-adjustment-options.php:73
+msgctxt "description of admin option"
+msgid "Set the weight to sum by default to parcels weight."
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:37
+msgctxt "description of admin option"
+msgid ""
+"Enable to ship the content of an order as a single box, which can help to "
+"save on shipping fees.\n"
+"The plugin will use the total dimensions and weights to send a single "
+"shipping quote request."
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:50
+msgctxt "description of admin option"
+msgid ""
+"Enable to use only cube boxes for your shippings. Regular sizes boxes are "
+"usually less expensive to ship."
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:66
+msgctxt "description of admin option"
+msgid "Choose the default format and size for the shipping labels."
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:13
+msgctxt "title of tab section"
+msgid "Parcel Boxes"
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:31
+msgctxt "title of tab section"
+msgid "Extra Options"
+msgstr ""
+
+#: plugin-options/parcel/parcel-boxes-options.php:16
+msgctxt "Admin tab description"
+msgid ""
+"Create a table with the boxes that are used to ship your items.\n"
+" Specify max weight that boxes can carry, outer dimensions, weight, and "
+"inner padding of each box to get a more accurate shipping rates quote."
+msgstr ""
+
+#. translators: the placeholders are html tags.
+#: plugin-options/parcel/postage-options.php:21
+msgctxt "description of tariff field in the parcel postage tab."
+msgid ""
+"%1$sTariff number%2$s: it is required by some carriers for international "
+"shipments. You can find your tariff number %3$shere%4$s."
+msgstr ""
+
+#: plugin-options/parcel/postage-options.php:37
+msgctxt "label of admin option on parcel postage tab"
+msgid "Set the default info about the content of the shipments"
+msgstr ""
+
+#: plugin-options/parcel/postage-options.php:52
+msgctxt "title of section tab postage options"
+msgid "Postage options for single order"
+msgstr ""
+
+#: plugin-options/parcel/postage-options.php:57
+msgctxt "label of admin option tab postage options"
+msgid "Require a shipment creation"
+msgstr ""
+
+#: plugin-options/parcel/postage-options.php:58
+msgctxt "description of admin option tab postage options"
+msgid ""
+"Set if the admin needs to create the shipment before purchasing the postage "
+"and the shipping label."
+msgstr ""
+
+#: plugin-options/parcel-options.php:17
+msgctxt "Admin tab title"
+msgid "Parcel Adjustments"
+msgstr ""
+
+#: plugin-options/parcel-options.php:20
+msgctxt "Admin tab title"
+msgid "Parcel Boxes"
+msgstr ""
+
+#: plugin-options/parcel-options.php:23
+msgctxt "Admin tab title"
+msgid "Postage Options"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:11
+msgctxt "label of admin option on shipping tracking tab"
+msgid "Enable Auto Tracking"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:19
+msgctxt "label of admin option on shipping tracking tab"
+msgid "Configure webhooks"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:40
+msgctxt "label of admin option on shipping tracking tab"
+msgid "Tracking status updates to notify customers"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:57
+msgctxt "label of admin option on shipping tracking tab"
+msgid "Complete orders with this tracking status"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:12
+msgctxt "description of admin option on shipping tracking"
+msgid ""
+"Enable to automatically track shipping updates from Shippo and send notices "
+"to your customers about the current status of their shipments."
+msgstr ""
+
+#. translators: placeholders are html tags.
+#: plugin-options/shipping/tracking-options.php:21
+msgctxt ""
+"label of admin option on shipping tracking, placeholders are html tags"
+msgid ""
+"To enable the Auto Tracking feature, copy this link and paste it into your "
+"%1$sShippo Account%2$s on Settings > API > Webhooks."
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:41
+msgctxt "label of admin option on shipping tracking"
+msgid ""
+"Send an email with a tracking status update to customers when shipment "
+"status changes to one of the selected values."
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:58
+msgctxt "label of admin option on shipping tracking"
+msgid ""
+"Automatically set the order as “Completed” when shipment status changes to "
+"one of the selected values."
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:47
+#: plugin-options/shipping/tracking-options.php:64
+msgctxt "option content on shipping tracking tab"
+msgid "Shipping label created"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:48
+#: plugin-options/shipping/tracking-options.php:65
+msgctxt "option content on shipping tracking tab"
+msgid "In transit"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:49
+#: plugin-options/shipping/tracking-options.php:66
+msgctxt "option content on shipping tracking tab"
+msgid "Delivered"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:50
+#: plugin-options/shipping/tracking-options.php:67
+msgctxt "option content on shipping tracking tab"
+msgid "Returned to Sender"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:51
+#: plugin-options/shipping/tracking-options.php:68
+msgctxt "option content on shipping tracking tab"
+msgid "Exception"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:52
+#: plugin-options/shipping/tracking-options.php:69
+msgctxt "option content on shipping tracking tab"
+msgid "Notice"
+msgstr ""
+
+#: plugin-options/shipping/tracking-options.php:54
+#: plugin-options/shipping/tracking-options.php:71
+msgctxt "label of a button to select all the options"
+msgid "Select all"
+msgstr ""
+
+#: templates/emails/shipment-table.php:77
+msgctxt "[Email] status of tracking"
+msgid "In transit"
+msgstr ""
+
+#: templates/emails/shipment-table.php:160
+msgctxt "[Email] Estimated date to delivery"
+msgid "Estimated delivery date"
+msgstr ""
+
+#: templates/emails/shipment-table.php:165
+msgctxt "[Email] Tracking code of shipping"
+msgid "Tracking code"
+msgstr ""
+
+#: templates/emails/shipment-table.php:170
+msgctxt "[Email] Label for the link to the page that shows the tracking info."
+msgid "Track shipment"
+msgstr ""

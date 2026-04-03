@@ -1,0 +1,38 @@
+.yith-shippo-shipping-zones {
+  .yith-plugin-fw-checkbox-array__row input {
+    display: none;
+  }
+
+ .yith-plugin-fw-checkbox-array__row {
+    float: left;
+   margin-bottom: 5px;
+  }
+
+ .yith-plugin-fw-checkbox-array__row span {
+    padding: 8px 20px !important;
+    display: inline-block !important;
+    border: 1px solid #d8d8d8;
+    margin: 0 10px 0 0 !important;
+    border-radius: 8px;
+  }
+
+  .yith-plugin-fw-checkbox-array__row span:hover{
+    cursor: pointer;
+  }
+
+  .yith-plugin-fw-checkbox-array__row:not(.deselected) span:hover, .yith-plugin-fw-checkbox-array__row.selected span{
+    background: var(--yith-primary);
+    color: var(--yith-primary-text);
+    border: 1px solid var(--yith-primary);
+  }
+
+  .yith-shipping-zone-select-all {
+    clear: both;
+    padding-top: 10px;
+    .yith-plugin-fw-field-wrapper.yith-plugin-fw-checkbox-field-wrapper{
+      display: flex!important;
+      align-items: end;
+      gap: 5px;
+    }
+  }
+}

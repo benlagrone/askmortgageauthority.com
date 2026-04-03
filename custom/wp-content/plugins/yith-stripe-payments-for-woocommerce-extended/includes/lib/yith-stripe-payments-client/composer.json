@@ -1,0 +1,26 @@
+{
+    "name": "yith/stripe-client",
+    "description": "Client library used to connect and interrogate YITH Stripe Server",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "ramsey/uuid": "^4.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Yith\\StripeClient\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio La Rocca",
+            "email": "antonio.larocca@yithemes.com"
+        }
+    ]
+}

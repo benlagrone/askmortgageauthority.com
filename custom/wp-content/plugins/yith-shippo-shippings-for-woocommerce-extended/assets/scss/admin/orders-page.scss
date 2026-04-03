@@ -1,0 +1,27 @@
+.yith-shippo-shipping-count {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.yith-shippo-shipment-service-label, .yith-shippo-shipment-status-label {
+  font-weight: 600;
+}
+
+.yith-shippo-shipment-service, .yith-shippo-shipment-status {
+  line-height: 1.6;
+  padding-top: 7px;
+}
+
+.yith-shippo-shipment-tracking-container:not(:first-child) {
+  margin-top: 10px;
+  border: 1px solid #cbcbcb;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  padding-top: 10px;
+}
+
+.yith-shippo-shipment-tracking-not-shipped .not-shipped {
+  font-style: italic;
+  color: #7d7d7d;
+}

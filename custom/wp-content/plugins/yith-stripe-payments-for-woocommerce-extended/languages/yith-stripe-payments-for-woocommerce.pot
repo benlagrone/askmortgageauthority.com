@@ -1,0 +1,555 @@
+# Copyright (C) 2025 YITH
+# This file is distributed under the same license as the YITH Stripe Payments for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Stripe Payments for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-stripe-payments-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: YITH <plugins@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-10T09:37:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"poedit: 1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+"X-Poedit-SearchPathExcluded-1: plugin-upgrade\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Domain: yith-stripe-payments-for-woocommerce\n"
+
+#. Description of the plugin
+#: init.php
+msgid "<code><strong>YITH Stripe Payments for WooCommerce</strong></code> allows your users to pay with credit cards thanks to the integration with Stripe, a powerful and flexible payment gateway. You will be able to get payments with credit cards while assuring your users of the reliability of an international partner. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>."
+msgstr ""
+
+#: includes/admin/class-main.php:84
+msgid "Are you sure you want to disconnect from Stripe?"
+msgstr ""
+
+#: includes/admin/class-main.php:85
+msgid "If you proceed, all account information will be removed and payments will be disabled, if you want to retain your account information, please select the disable payments option instead"
+msgstr ""
+
+#: includes/admin/class-main.php:86
+#: includes/admin/views/onboarding-details.php:48
+msgid "Disconnect"
+msgstr ""
+
+#: includes/admin/class-main.php:178
+msgid "Clear YITH Stripe Payments fo WooCommerce cache"
+msgstr ""
+
+#: includes/admin/class-main.php:179
+msgid "This tool will clear the options and transients cache used in the plugin."
+msgstr ""
+
+#: includes/admin/class-main.php:180
+msgid "Clear"
+msgstr ""
+
+#. Translators: 1. Current store currency. 2. Url to Stripe DOC.
+#: includes/admin/class-notices.php:140
+msgid "Stripe doesn't currently support your store's currency (%1$s); you can consult a list of supported currencies at <a href=\"%2$s\" target=\"_blank\">this link</a>. Plugin is currently enabled, but no gateway will be available until you switch to a supported currency."
+msgstr ""
+
+#: includes/admin/class-notices.php:157
+msgid "A secure connection is required when running Stripe Payments in Live mode; plugin is currently enabled, but no gateway will be available until you secure connection to your site through a valid SSL certificate"
+msgstr ""
+
+#: includes/admin/class-notices.php:168
+msgid "A valid hosting plugin is required in order to proceed with the plugin configuration. Please contact your hosting provider for further details."
+msgstr ""
+
+#: includes/admin/class-notices.php:213
+msgid "Unable to contact the server"
+msgstr ""
+
+#. translators: %s is the specified URL.
+#: includes/admin/class-notices.php:215
+msgid "Couldn't find any account for the specified URL (%s)"
+msgstr ""
+
+#: includes/admin/class-onboarding.php:176
+msgctxt "[ADMIN] Shown in the onboarding popup when flow is complete"
+msgid "Great news! Onboarding process is complete. You'll be redirected in a moment. Thank you for your patience, keep up with the great work :)"
+msgstr ""
+
+#: includes/admin/class-orders.php:165
+msgid "Capture payment"
+msgstr ""
+
+#: includes/admin/class-panel.php:182
+msgctxt "[ADMIN] Panel tabs"
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-panel.php:184
+msgid "Connect to Stripe and configure gateway settings"
+msgstr ""
+
+#: includes/admin/class-panel.php:187
+msgctxt "[ADMIN] Panel tabs"
+msgid "Appearance"
+msgstr ""
+
+#: includes/admin/class-panel.php:193
+msgid "Customize the appearance of the Stripe Payment Element."
+msgstr ""
+
+#: includes/admin/views/onboarding-button.php:17
+msgctxt "[Admin] Onboarding button"
+msgid "Connect with Stripe"
+msgstr ""
+
+#: includes/admin/views/onboarding-details.php:18
+msgid "Account ID"
+msgstr ""
+
+#: includes/admin/views/onboarding-details.php:26
+msgid "Details submitted"
+msgstr ""
+
+#: includes/admin/views/onboarding-details.php:29
+#: includes/admin/views/onboarding-details.php:37
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/views/onboarding-details.php:29
+#: includes/admin/views/onboarding-details.php:37
+msgid "No"
+msgstr ""
+
+#: includes/admin/views/onboarding-details.php:34
+msgid "Charges enabled"
+msgstr ""
+
+#: includes/admin/views/onboarding-details.php:45
+msgid "Refresh info"
+msgstr ""
+
+#: includes/admin/views/onboarding-details.php:53
+msgid "Resume Stripe connection >"
+msgstr ""
+
+#. Translators: 1. Connection status span.
+#: includes/admin/views/onboarding.php:24
+msgid "Status: %s"
+msgstr ""
+
+#: includes/class-account.php:133
+msgctxt "Onboarding status"
+msgid "Disconnected"
+msgstr ""
+
+#: includes/class-account.php:135
+msgctxt "Onboarding status"
+msgid "Connected, waiting for account to be completed"
+msgstr ""
+
+#: includes/class-account.php:137
+msgctxt "Onboarding status"
+msgid "Connected"
+msgstr ""
+
+#: includes/class-apple-pay-registration.php:98
+msgid "Unable to create domain association folder to domain root."
+msgstr ""
+
+#: includes/class-apple-pay-registration.php:102
+msgid "Unable to copy domain association file to domain root."
+msgstr ""
+
+#. translators: expected domain association file URL
+#: includes/class-apple-pay-registration.php:124
+msgid "To enable Apple Pay, domain association file must be hosted at %s."
+msgstr ""
+
+#: includes/class-apple-pay-registration.php:127
+msgid "Domain association file updated."
+msgstr ""
+
+#: includes/class-frontend.php:116
+msgctxt "My Account order action"
+msgid "Confirm payment"
+msgstr ""
+
+#: includes/exceptions/class-payment-exception.php:102
+msgctxt "Payment errors"
+msgid "The card does not support this type of purchase."
+msgstr ""
+
+#: includes/exceptions/class-payment-exception.php:104
+msgctxt "Payment errors"
+msgid "The card does not support the specified currency."
+msgstr ""
+
+#: includes/exceptions/class-payment-exception.php:106
+msgctxt "Payment errors"
+msgid "The card was declined for an unknown reason."
+msgstr ""
+
+#: includes/exceptions/class-payment-exception.php:108
+msgctxt "Payment errors"
+msgid "The card has expired."
+msgstr ""
+
+#: includes/exceptions/class-payment-exception.php:110
+msgctxt "Payment errors"
+msgid "The card number is incorrect."
+msgstr ""
+
+#: includes/exceptions/class-payment-exception.php:112
+msgctxt "Payment errors"
+msgid "The CVC number is incorrect."
+msgstr ""
+
+#: includes/exceptions/class-payment-exception.php:114
+msgctxt "Payment errors"
+msgid "The card has insufficient funds to complete the purchase."
+msgstr ""
+
+#. translators: specific error code occurred.
+#: includes/exceptions/class-payment-exception.php:129
+msgctxt "Order notes"
+msgid "An error occurred while processing payment (%s)."
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:53
+msgid "Stripe Element"
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:54
+msgid "Stripe provides all the tools that you need to accept payments online around the world, including support for Apple Pay and Google Pay."
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:58
+#: plugin-options/appearance-options.php:53
+msgctxt "[ADMIN] Default gateway description"
+msgid "Use your Credit Card, or choose one of our selected partners to process your payment"
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:148
+#: plugin-options/appearance-options.php:44
+msgctxt "[ADMIN] Default gateway title"
+msgid "Stripe Payments"
+msgstr ""
+
+#. translators: 1. Error message from remote server.
+#: includes/gateways/class-payment-element.php:339
+#: includes/gateways/class-payment-element.php:449
+#: includes/gateways/class-payment-element.php:461
+#: includes/gateways/class-payment-element.php:508
+#: includes/gateways/class-payment-element.php:568
+#: includes/gateways/class-payment-element.php:580
+#: includes/gateways/class-payment-element.php:587
+#: includes/gateways/class-payment-element.php:603
+#: includes/gateways/class-payment-element.php:614
+#: includes/gateways/class-payment-element.php:641
+#: includes/gateways/class-payment-element.php:671
+#: includes/gateways/class-payment-element.php:726
+msgctxt "Payment error"
+msgid "Sorry, there was an error while processing payment; please, try again."
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:365
+#: includes/gateways/class-payment-element.php:595
+msgid "Couldn't complete payment with selected payment method; please, try again by selecting another."
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:374
+msgid "Payment session expired; please try again by entering a new payment method."
+msgstr ""
+
+#. translators: 1. actual error message.
+#: includes/gateways/class-payment-element.php:398
+msgctxt "Payment error"
+msgid "Payment error - %s"
+msgstr ""
+
+#. translators: 1. Blog name. 2. Order id.
+#: includes/gateways/class-payment-element.php:477
+msgid "%1$s - Order #%2$d"
+msgstr ""
+
+#. translators: 1. Error message from remote server.
+#: includes/gateways/class-payment-element.php:522
+msgctxt "Payment error"
+msgid "Sorry, there was an error while confirming payment; please, try again."
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:610
+#: includes/gateways/class-payment-element.php:689
+msgctxt "Payment error"
+msgid "Please, validate your payment method before proceeding further; in order to do this, refresh the page and proceed with checkout as usual"
+msgstr ""
+
+#: includes/gateways/class-payment-element.php:700
+msgctxt "Post checkout message"
+msgid "Please, confirm your purchasing using the following button. You order will be automatically processed as soon as we receive confirmation of your payment. Thanks for your preference!"
+msgstr ""
+
+#. translators: 1. Charge id.
+#: includes/gateways/class-payment-element.php:743
+msgid "Stripe payment approved (ID: %s)"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:74
+msgid "Couldn't instantiate model"
+msgstr ""
+
+#: includes/models/class-intent.php:81
+msgid "Amount doesn't match requirements for being processed by Stripe."
+msgstr ""
+
+#: includes/rest-api/controllers/class-charge-controller.php:60
+msgid "Order status set to on-hold due to a %sStripe Dispute%s"
+msgstr ""
+
+#. translators: %1$s is the new order status, %2$s is the opening tag of thr link while %3$s is the closing one.
+#: includes/rest-api/controllers/class-charge-controller.php:91
+msgid "Order status set to %1$s due from losing the %2$sStripe Dispute%3$s"
+msgstr ""
+
+#: includes/rest-api/controllers/class-charge-controller.php:119
+msgid "Order status set to refunded due to a %sStripe event%s"
+msgstr ""
+
+#: includes/rest-api/controllers/class-charge-controller.php:150
+msgid "Order status set to failed due to an %suncaptured charge that as expired%s"
+msgstr ""
+
+#. translators: %1$s is the order status, %1$s is the HTML link opening tag while %3$s is the closing one.
+#: includes/rest-api/controllers/class-payment-event-controller.php:73
+#: includes/rest-api/controllers/class-payment-event-controller.php:134
+msgid "Order status set to %1$s due to a %2$sStripe event%3$s"
+msgstr ""
+
+#: includes/rest-api/controllers/class-payment-intent-controller.php:71
+msgid "Order status set to on-hold due to the %sStripe Payments%s that requires an action"
+msgstr ""
+
+#: includes/rest-api/controllers/class-webhooks-controller.php:117
+msgid "Unique stripe event ID"
+msgstr ""
+
+#: includes/rest-api/controllers/class-webhooks-controller.php:123
+msgid "The webhook object type"
+msgstr ""
+
+#: includes/rest-api/controllers/class-webhooks-controller.php:129
+msgid "Stripe API Version"
+msgstr ""
+
+#: includes/rest-api/controllers/class-webhooks-controller.php:135
+msgid "Timestamp"
+msgstr ""
+
+#: includes/rest-api/controllers/class-webhooks-controller.php:141
+msgid "The Stripe object related to the event"
+msgstr ""
+
+#: includes/rest-api/controllers/class-webhooks-controller.php:146
+msgid "Whatever the event has been generated in live mode (true) or test (false)"
+msgstr ""
+
+#: includes/rest-api/controllers/class-webhooks-controller.php:151
+msgid "The stripe event type"
+msgstr ""
+
+#. translators: 1. Plugin name.
+#: init.php:81
+msgid "%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/appearance-options.php:32
+msgctxt "[ADMIN] General settings page"
+msgid "Customization"
+msgstr ""
+
+#: plugin-options/appearance-options.php:40
+msgid "Gateway title"
+msgstr ""
+
+#: plugin-options/appearance-options.php:43
+msgid "Add a title for this payment gateway that the user will see during checkout."
+msgstr ""
+
+#: plugin-options/appearance-options.php:49
+msgid "Gateway description"
+msgstr ""
+
+#: plugin-options/appearance-options.php:52
+msgid "Add an optional description for this payment gateway that the user will see in checkout. Leave this field blank if you don't want to show a description."
+msgstr ""
+
+#: plugin-options/appearance-options.php:62
+#: plugin-options/appearance-options.php:70
+msgctxt "[ADMIN] Element settings page"
+msgid "Layout"
+msgstr ""
+
+#: plugin-options/appearance-options.php:74
+msgctxt "[ADMIN] Element layout options"
+msgid "Tabs"
+msgstr ""
+
+#: plugin-options/appearance-options.php:75
+msgctxt "[ADMIN] Element layout options"
+msgid "Accordion"
+msgstr ""
+
+#: plugin-options/appearance-options.php:77
+msgid "Select the layout for the Stripe Payment Element to use on the checkout page."
+msgstr ""
+
+#: plugin-options/appearance-options.php:83
+msgctxt "[ADMIN] Element settings page"
+msgid "Collapsed by default"
+msgstr ""
+
+#: plugin-options/appearance-options.php:86
+msgid "Choose if you want your accordion elements collapsed by default."
+msgstr ""
+
+#: plugin-options/appearance-options.php:98
+msgctxt "[ADMIN] Element settings page"
+msgid "Show radios"
+msgstr ""
+
+#: plugin-options/appearance-options.php:101
+msgid "Add radio buttons next to the logo of each payment method to visually indicate the current selection."
+msgstr ""
+
+#: plugin-options/appearance-options.php:113
+msgctxt "[ADMIN] Element settings page"
+msgid "Spaced accordion"
+msgstr ""
+
+#: plugin-options/appearance-options.php:116
+msgid "Add space in between each payment method within the accordion."
+msgstr ""
+
+#: plugin-options/appearance-options.php:132
+msgctxt "[ADMIN] Element settings page"
+msgid "Appearance"
+msgstr ""
+
+#: plugin-options/appearance-options.php:140
+msgctxt "[ADMIN] Element settings page"
+msgid "Theme"
+msgstr ""
+
+#: plugin-options/appearance-options.php:145
+msgctxt "[ADMIN] Element settings page"
+msgid "Stripe"
+msgstr ""
+
+#: plugin-options/appearance-options.php:149
+msgctxt "[ADMIN] Element settings page"
+msgid "Night"
+msgstr ""
+
+#: plugin-options/appearance-options.php:153
+msgctxt "[ADMIN] Element settings page"
+msgid "Flat"
+msgstr ""
+
+#: plugin-options/appearance-options.php:157
+msgid "Select a theme to apply to the Stripe Payment Element."
+msgstr ""
+
+#: plugin-options/appearance-options.php:163
+msgctxt "[ADMIN] Element settings page"
+msgid "Colors"
+msgstr ""
+
+#: plugin-options/appearance-options.php:169
+msgctxt "[ADMIN] Element settings page"
+msgid "Primary"
+msgstr ""
+
+#: plugin-options/appearance-options.php:174
+msgctxt "[ADMIN] Element settings page"
+msgid "Background"
+msgstr ""
+
+#: plugin-options/appearance-options.php:179
+msgctxt "[ADMIN] Element settings page"
+msgid "Text"
+msgstr ""
+
+#: plugin-options/appearance-options.php:183
+msgid "Customize the colors of the Stripe Payment Element for a personalized look."
+msgstr ""
+
+#: plugin-options/general-options.php:35
+msgctxt "[ADMIN] General settings page"
+msgid "General"
+msgstr ""
+
+#: plugin-options/general-options.php:43
+msgid "Enable/Disable"
+msgstr ""
+
+#: plugin-options/general-options.php:46
+msgid "Use Stripe payments on this site."
+msgstr ""
+
+#: plugin-options/general-options.php:52
+msgid "Environment"
+msgstr ""
+
+#: plugin-options/general-options.php:56
+msgctxt "[ADMIN] Gateway environment options"
+msgid "Live"
+msgstr ""
+
+#: plugin-options/general-options.php:57
+msgctxt "[ADMIN] Gateway environment options"
+msgid "Sandbox"
+msgstr ""
+
+#: plugin-options/general-options.php:61
+msgid "Choose if you want to use live transactions or test transactions for your site. Sandbox mode will allows you to test your integration by making simulated purchases."
+msgstr ""
+
+#: plugin-options/general-options.php:62
+msgid "<b>Note</b>: this option is forced to Test by default as plugin is currently executed on a staging installation."
+msgstr ""
+
+#: plugin-options/general-options.php:77
+msgctxt "[ADMIN] General settings page"
+msgid "Payment"
+msgstr ""
+
+#: plugin-options/general-options.php:85
+msgid "Capture method"
+msgstr ""
+
+#: plugin-options/general-options.php:89
+msgctxt "[ADMIN] Gateway environment options"
+msgid "Capture immediately"
+msgstr ""
+
+#: plugin-options/general-options.php:90
+msgctxt "[ADMIN] Gateway environment options"
+msgid "Authorize only (capture later)"
+msgstr ""
+
+#: plugin-options/general-options.php:92
+msgid "Select your preference for payment capture; automatic capture upon issuance or manual capture later through the Stripe Dashboard."
+msgstr ""
+
+#: templates/checkout/thankyou-next-actions.php:16
+msgctxt "Thank you page next actions"
+msgid "Next steps"
+msgstr ""
+
+#: templates/checkout/thankyou-next-actions.php:23
+msgctxt "Thank you page next actions"
+msgid "Confirm your purchase"
+msgstr ""

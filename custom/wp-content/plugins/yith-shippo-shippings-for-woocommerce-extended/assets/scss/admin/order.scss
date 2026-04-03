@@ -1,0 +1,687 @@
+/* ORDER META BOX */
+#yith-shippo-order-shippings {
+  .postbox-header {
+    border-bottom: none !important;
+  }
+  .postbox-header h2 {
+    color: #2a8db0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .postbox-header .hndle {
+    cursor: pointer;
+  }
+
+  .postbox-header .handle-actions {
+    display: none !important;
+  }
+
+  .postbox-header h2:hover {
+    cursor: default;
+  }
+
+  .yith-shippo-shipping-form-field {
+    margin-bottom: 20px;
+  }
+
+  #yith-shippo-add-new-shipping {
+    background-color: #E3EFF3;
+    border: 1px solid #D7E3E7;
+    box-shadow: 0 2px 10px 5px rgba(145, 191, 227, 0.1);
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 30px;
+  }
+
+  #yith-shippo-add-new-shipping:hover {
+    cursor: pointer;
+  }
+
+
+  .yith-shippo-shipping-section-box {
+    padding: 0 20px;
+    border: 1px solid #c3c4c7;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+  .yith-shippo-shipping-section-box--title {
+    position: relative;
+  }
+
+  .yith-shippo-shipping-section-box--title h3 {
+    font-size: 12px;
+    margin: 0;
+    padding: 20px 66px 20px 0;
+    display: inline-block;
+    position: relative;
+    min-width: 173px;
+    box-sizing: border-box;
+  }
+
+  .yith-shippo-shipping-section-box--toggle {
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    color: #c3c4c7;
+    cursor: pointer;
+  }
+
+  .yith-shippo-shipping-section-box--title:hover{
+    cursor: pointer;
+  }
+  .yith-shippo-shipping-section-box .yith-shippo-shipping-section-box--toggle span {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateX(50%) translateY(-50%);
+    transition: transform .3s;
+  }
+
+  .yith-shippo-shipping-section-box .yith-shippo-shipping-section-box--toggle:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  .yith-shippo-shipping-section-box.yith-shippo-shipping-section-box--closed .yith-shippo-shipping-section-box--content {
+    display: none;
+  }
+
+  .yith-shippo-shipping-section-box.yith-shippo-shipping-section-box--closed .yith-shippo-shipping-section-box--toggle span {
+    transform: translateX(50%) translateY(-50%) rotateZ(180deg);
+  }
+
+  .yith-plugin-fw-inline-fields-field-wrapper .option-element label {
+    margin-left: 5px;
+  }
+
+  .yith-plugin-fw-inline-fields-field-wrapper .option-element.hidden {
+    display: none;
+  }
+
+  .yith-plugin-fw-inline-fields-field-wrapper .option-element .yith-plugin-fw-field-wrapper {
+    margin-top: 10px;
+  }
+
+  .yith-plugin-fw-inline-fields-field-wrapper .option-element .yith-plugin-fw-field-wrapper .select2.select2-container {
+    width: 300px !important;
+  }
+
+  .yith-shippo-small-text {
+    width: 70px !important;
+    min-width: auto;
+  }
+
+  .yith-plugin-fw-parce-dimension-field-wrapper{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 300px 100px 200px;
+    gap: 10px;
+  }
+
+  .yith-dimension-inline-fields{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 70px 10px 70px 10px 70px 40px;
+    gap: 10px
+  }
+  .yith-weight-inline-fields{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 70px 60px 100px;
+    gap: 10px
+  }
+  .parcel-dimension {
+    margin-top: -10px;
+  }
+
+  .yith-shippo-total-weight .total_weight{
+    width: 60px;
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    padding: 8px 10px;
+    box-shadow: none;
+    color: #716269;
+  }
+  .yith-shippo-total-weight .total_weight_value{
+    margin-right:5px;
+  }
+
+  .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-content {
+    grid-template-columns: 100px 300px 100px;
+    gap: 10px;
+  }
+
+  .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-empty-state-wrapper {
+    grid-template-columns: 500px auto;
+    padding: 20px;
+  }
+
+  .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-content,
+  .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-empty-state-wrapper {
+    display: grid;
+    align-items: center;
+    border: 1px solid #c3c4c7;
+    min-height: 80px;
+    width: fit-content;
+    min-width: 500px;
+    border-radius: 10px;
+  }
+
+  .yith-shippo-service-image {
+    margin: 20px;
+  }
+
+  .yith-plugin-fw-choose-service-field-wrapper img {
+    width: 50px;
+  }
+
+  .yith-shippo-edit-service {
+    text-decoration: none;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row label {
+    display: none;
+  }
+
+  .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row:first-child label {
+    display: block;
+  }
+
+  .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row:first-child .yith_shippo_currency {
+    margin-top: 30px;
+  }
+
+  .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row:first-child .yith-shippo-remove-rule {
+    display: none;
+  }
+
+  .yith-shippo-remove-rule {
+    font-size: 15px;
+  }
+
+  .yith-shippo-remove-rule:hover {
+    cursor: pointer;
+    color: var(--yith-link);
+  }
+
+  .yith-shippo-new-product {
+    margin-top: 15px;
+    margin-left: 5px;
+    display: none;
+  }
+
+  .yith-shippo-new-product a {
+    text-decoration: none;
+  }
+
+  .yith-shippo-service-days.hide,
+  .yith-shippo-service-empty-state-wrapper.hide,
+  .yith-shippo-service-content.hide,
+  .yith-tariff-number.hide,
+  .yith-country-origin.hide {
+    display: none;
+  }
+
+  .yith-shippo-no-service-message {
+    font-style: italic;
+  }
+
+  .blockUI.blockOverlay {
+    opacity: 0.6 !important;
+  }
+
+  .yith-shippo-delete-shipping {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .yith-icon-trash.yith-shippo-delete-shipping {
+    color: red;
+  }
+
+  .yith-shippo-rate-confirmed-view {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50px 25% 50% 10%;
+    gap: 2%;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+  }
+
+  .yith-shippo-rate-confirmed-view .yith-shippo-rate-confirmed-products-label {
+    font-weight: bold;
+  }
+
+  .yith-shippo-rate-confirmed-view img {
+    width: 50px;
+  }
+
+  .yith-shippo-rate-confirmed-actions {
+    text-align: right;
+  }
+
+  .yith-shippo-rate-confirmed--service-info .yith-shippo-service-days,
+  .yith-shippo-rate-confirmed-view .yith-shippo-rate-confirmed-product-list {
+    margin-top: 10px;
+  }
+}
+
+.yith-shippo-service-popup {
+  .yith-shippo-service-popup-row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 130px 130px 190px;
+    gap: 5px;
+    border: 1px solid #c3c4c7;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .yith-shippo-service-popup-row .yith-icon-check{
+    display: none;
+  }
+
+  .yith-shippo-service-popup-row:hover {
+    cursor: pointer;
+    border-color: #94d0e5;
+  }
+
+  .yith-shippo-service-image-popup {
+    margin: 20px;
+  }
+
+  .yith-shippo-service-popup-row img {
+    width: 50px;
+  }
+  .yith-shippo-service-popup-row.service-checked{
+    position: relative;
+    margin-top: 20px;
+    border-color: #94d0e5;
+  }
+
+  .yith-shippo-service-popup-row.service-checked .yith-icon-check{
+    display: inline-block;
+    position: absolute;
+    right: -12px;
+    top: -10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--yith-primary);
+    color: #fff;
+  }
+  .yith-shippo-service-popup-row.service-checked .yith-icon-check:before{
+    font-size: 13px;
+    padding-left: 6px;
+  }
+  .yith-shippo-service-popup--extra .yith.shippo-service-popup--price {
+    font-weight: bold;
+  }
+
+  .yith-shippo-service-popup--extra {
+    text-align: right;
+  }
+}
+
+.yith-plugin-fw__confirm__button--cancel.yith-shippo-hide-cancel-button {
+  & {
+    display: none;
+  }
+}
+
+.yith-shippo-tracking-info {
+  & {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 0.9em;
+    margin: 20px 20px 10px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+  }
+
+  small {
+    display: block;
+    margin-top: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .yith-shippo-tracking--service-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+    img.yith-shippo-tracking--service-image {
+      width: 50px;
+    }
+  }
+
+  .yith-shippo-tracking-block-label {
+    font-weight: 600;
+  }
+
+  .yith-shippo-tracking--check-for-updates a {
+    border-radius: 7px;
+    border: 1px solid rgba(35, 110, 183, 1);
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    .yith-icon {
+      font-size: 1.8em;
+    }
+  }
+}
+
+.yith-shippo-shipping-status-box {
+  width: 100%;
+
+  .progressbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 0 0;
+    margin-left: -10px;
+
+    &.labels {
+      padding-top: 0;
+      margin-top: 0;
+      margin: 0 30px 20px 10px;
+      font-size: 0.9em;
+
+      li {
+        flex-basis: 33%;
+
+        &.transit {
+          text-align: center;
+        }
+
+        &.delivered {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .progressbar.icons li {
+    & {
+      padding: 10px;
+      flex: 1;
+      position: relative;
+
+    }
+
+    &:last-child {
+      flex: 0;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      border-bottom: 1px dashed #ccc;
+      width: calc(100% - 70px);
+      top: 35px;
+      left: 70px;
+      z-index: 0;
+    }
+
+    &:first-child::after {
+      left: 70px;
+      width: calc(100% - 70px);
+    }
+
+    &:last-child::after {
+      content: none;
+    }
+
+    &.done::after {
+      border-bottom: 1px solid rgb(84, 139, 192);
+    }
+
+    span.delivered {
+
+      &.done{
+        color: RGB(115, 115, 0);
+      }
+    }
+
+    .inner-box {
+      position: relative;
+      width: 100%;
+      display: inline-block;
+
+      .inner-box-description{
+        position: absolute;
+        z-index: 2;
+      }
+
+    }
+    &.centered {
+      .inner-box-description{
+        position: absolute;
+        z-index: 2;
+        left: -50%;
+        text-align: center;
+        width: calc( 100% + 30px);
+        padding:0 10px;
+      }
+    }
+    &.centered.failure{
+      .status-step{
+        background-color: rgba(228, 179, 164, 0.2);
+
+        .inner-circle{
+          background-color: RGB(192, 84, 84);
+        }
+      }
+
+    }
+
+    .status-step {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      position: relative;
+
+
+      .inner-circle {
+        display: flex;
+        align-items: center;
+        width: 35px;
+        border-radius: 50%;
+        height: 35px;
+        justify-content: center;
+        background: rgba(226, 226, 226, 1);
+
+        &.active {
+          background-color: rgb(84, 139, 192);
+
+          .shippo-icon-transit {
+            background-image: url("data:image/svg+xml, #{$transitActive}");
+          }
+
+          .shippo-icon-delivered {
+            background-image: url("data:image/svg+xml, #{$deliveredActive}");
+          }
+
+          .shippo-icon-waiting {
+            background-image: url("data:image/svg+xml, #{$waitingActive}");
+          }
+        }
+      }
+
+      &.current {
+        border-radius: 50%;
+        background: rgba(219, 231, 244, 1);
+
+        .inner-circle {
+          background-color: rgb(84, 139, 192);
+        }
+
+        &.delivered {
+          background: rgba(212, 224, 72, 0.4);
+
+          .inner-circle {
+            background-color: RGB(183, 183, 0);
+          }
+
+          .shippo-icon-delivered {
+            background-image: url("data:image/svg+xml, #{$deliveredActive}");
+          }
+
+          & > span {
+            background-color: rgba(212, 224, 72, 1);
+            color: RGB(212, 224, 72);
+          }
+        }
+      }
+    }
+
+    .shippo-icon {
+      border-radius: 0;
+      display: inline-block;
+      width: 30px;
+      fill: RGB(169, 169, 169);
+      height: 30px;
+      background-color: transparent;
+    }
+
+    .shippo-icon-waiting {
+      background-image: url("data:image/svg+xml, #{$waiting}");
+      background-size: cover;
+      width: 27px;
+      height: 22px;
+
+      display: block;
+      margin: 0 auto;
+    }
+
+    .shippo-icon-transit {
+      background-image: url("data:image/svg+xml, #{$transit}");
+      background-size: cover;
+      width: 30px;
+      height: 17px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .shippo-icon-delivered {
+      background-image: url("data:image/svg+xml, #{$delivered}");
+      background-size: cover;
+      display: block;
+      margin: 0 auto;
+      width: 23px;
+      height: 22px;
+    }
+
+    .shippo-icon-error {
+      background-image: url("data:image/svg+xml, #{$error}");
+      background-size: cover;
+      display: block;
+      margin: 0 auto;
+      width: 23px;
+      height: 22px;
+      margin-top: -4px;
+    }
+
+
+  }
+
+}
+
+.yith-shippo-shipping-tracking-history {
+  margin: 20px 0;
+
+  a {
+    text-decoration: none;
+
+    i.yith-icon {
+      font-size: 10px;
+      margin-left: 5px;
+      font-weight: 600;
+      margin-top: 5px;
+      display: inline-block;
+      transition: all 1s;
+    }
+  }
+}
+
+.yith-shippo-tracking-history-list {
+  & {
+    margin-top: 50px;
+    display: none;
+  }
+
+  li {
+    position: relative;
+    border-left: 1px solid #548BC0;
+    padding: 0 0 50px 20px;
+    margin: 0;
+    &:last-child{
+      &.failure{
+        &,  .description {color: RGB(145, 0, 0);}
+        &:before {
+          background-color: RGB(198, 102, 99);
+        }
+      }
+    }
+
+    &:before {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      content: "";
+      display: block;
+      top: 0;
+      left: -20px;
+      background-color: #548BC0;
+      border-radius: 50%;
+      left: -5px;
+    }
+
+    &:last-child {
+      border: none;
+    }
+
+    .date {
+      font-weight: 600;
+      display: block;
+      top: -5px;
+      position: inherit;
+    }
+
+    .description {
+      margin-top: 0;
+    }
+
+    .location {
+      opacity: 0.7;
+      font-size: 0.8em;
+    }
+  }
+
+}
+ul[id^="select2-yith-shippo-product"] .select2-results__option[aria-disabled=true]{
+  color: #d0cece;
+}
+/* END ORDER META BOX */

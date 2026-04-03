@@ -1,0 +1,1332 @@
+#yith-shippo-onboarding-button .yith-shippo-button {
+  line-height: 35px;
+  border-radius: 10px;
+}
+#yith-shippo-onboarding-button .yith-shippo-button i {
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+#yith-shippo-onboarding-button .yith-shippo-connected-account {
+  color: #619800;
+  background-color: #f1f2cb;
+  border-color: #DCDCDC !important;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#yith-shippo-onboarding-button .yith-shippo-disconnect-account {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: #DCDCDC !important;
+  border-left: 0;
+  margin-left: -5px;
+  background-color: #f7f7f7;
+  color: #940000;
+}
+#yith-shippo-onboarding-button .yith-shippo-connect-icon {
+  background-image: url(../images/shippo-logo-white.svg);
+}
+#yith-shippo-onboarding-button .yith-shippo-connected-icon {
+  background-image: url(../images/connected-status.svg);
+}
+
+#yith-bh-onboarding .yith-plugin-ui .form-table td {
+  padding: 20px 0;
+}
+
+#yith-bh-onboarding .single-sender-info-wrapper {
+  grid-template-columns: 210px 1fr !important;
+}
+
+.yith-plugins_page_yith_shippo_shipping_for_woocommerce #plugin-fw-wc {
+  padding-top: 0 !important;
+}
+
+#yith_shippo_shipping_for_woocommerce_parcel-parcel-adjustment .description {
+  max-width: 600px;
+}
+#yith_shippo_shipping_for_woocommerce_parcel-parcel-adjustment table.form-table .yith-inline-fields .option-element .select2-container {
+  min-width: 220px !important;
+}
+
+#parcel-list .yith-shippo-parcel td.parcel-type {
+  padding-right: 50px !important;
+}
+#parcel-list .yith-shippo-parcel .parcel-type span.select2.select2-container {
+  min-width: 250px !important;
+}
+
+#yith_shippo_min_parcel_dimension {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 420px;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+div#yith_shippo_additional_weight {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 220px 100px 100px;
+  gap: 10px;
+}
+div#yith_shippo_additional_weight .text {
+  margin-top: -1px;
+  width: 100px;
+}
+
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style .select2-container {
+  min-width: 220px !important;
+  max-width: 250px !important;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style .yith-shippo-add-parcel-box {
+  background-color: #E3EFF3;
+  border: 1px solid #D7E3E7;
+  box-shadow: 0 2px 10px 5px rgba(145, 191, 227, 0.1);
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style .yith-shippo-bulk-actions-container {
+  margin-bottom: 20px;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style .yith-shippo-bulk-actions-container .yith-shippo-bulk-actions .button {
+  margin-left: 6px;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table {
+  width: 100%;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table thead th {
+  padding: 15px 0 0 10px;
+  width: 10%;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table thead th.check-bulk {
+  width: 3%;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table thead th#measurements {
+  width: 18%;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table thead th#shipping-zone {
+  width: 15%;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table thead th#weight, #plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table thead th#inner-padding, #plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table thead th#max-weight {
+  width: 8%;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table tbody tr td {
+  padding: 15px 0 15px 10px;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table tbody tr .flex-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table tbody tr input[type=text] {
+  width: 60px;
+  min-width: auto;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table tbody tr input[type=text].yith-shippo-name {
+  width: 150px;
+}
+#plugin-fw-wc .yith-shippo-parcel-list.yith-plugin-ui--boxed-wp-list-style table.wp-list-table tbody tr select {
+  width: 150px;
+}
+
+#yith_shippo_shipping_for_woocommerce_parcel-postage table.form-table .select2-container {
+  min-width: 220px !important;
+  max-width: 300px !important;
+}
+#yith_shippo_shipping_for_woocommerce_parcel-postage #yith_shippo_default_postage_options label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+#yith_shippo_shipping_for_woocommerce_parcel-postage #yith_shippo_default_postage_options input, #yith_shippo_shipping_for_woocommerce_parcel-postage #yith_shippo_default_postage_options select {
+  max-width: 300px;
+}
+#yith_shippo_shipping_for_woocommerce_parcel-postage #yith_shippo_default_postage_options.required {
+  border-color: red;
+}
+#yith_shippo_shipping_for_woocommerce_parcel-postage #yith_shippo_default_postage_options .parcel-boxes-section {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+#yith-shippo-add-parcel-modal .form-row.form-row-inline {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  margin-bottom: 15px;
+}
+#yith-shippo-add-parcel-modal input.yith-shippo-number {
+  width: 80px !important;
+  margin-right: 5px;
+}
+#yith-shippo-add-parcel-modal .button-primary {
+  padding: 5px 15px !important;
+  width: 100%;
+  cursor: pointer;
+}
+#yith-shippo-add-parcel-modal .submit {
+  padding: 10px 0 0;
+}
+#yith-shippo-add-parcel-modal input.required {
+  border-color: red;
+}
+
+#yith_shippo_shipping_for_woocommerce_parcel-parcel-boxes .yith-plugin-fw__panel__section__title h2 {
+  padding-left: 0 !important;
+}
+#yith_shippo_shipping_for_woocommerce_parcel-parcel-boxes .yith-plugin-fw__panel__option {
+  max-width: 1000px;
+}
+
+/** Shipping sender info */
+.woocommerce #yith-shippo-sender-info-modal .select2-container,
+.woocommerce #yith_shippo_shipping_for_woocommerce_shipping-sender-info .select2-container {
+  min-width: 460px !important;
+  width: 460px !important;
+}
+
+.yith-shippo-sender-info .description {
+  margin-bottom: 25px;
+}
+
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info button#yith-plugin-fw-float-save-button.visible {
+  display: none !important;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info table {
+  min-width: 70%;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info table tr.yith-shippo-sender-info.is-default {
+  box-shadow: 0 0 0 1px #bf8628, 0 3px 11px 6px var(--yith-light-shadow) !important;
+  background: #fbf8f3 !important;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info td.actions {
+  position: relative;
+  text-align: right;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info a.set-default {
+  opacity: 0;
+  transition: 0.3s;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info tr.yith-shippo-sender-info:hover a.set-default {
+  opacity: 1;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info a.set-default,
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info .default-badge {
+  font-size: 8px;
+  text-transform: uppercase;
+  background: #007aa0;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 0 12px;
+  line-height: 18px;
+  display: inline-block;
+  text-decoration: none;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-sender-info .default-badge {
+  position: absolute;
+  top: -9px;
+  right: 10px;
+  width: auto;
+  background: #bf8628;
+}
+
+.yith-shippo-address-validation-error {
+  display: none;
+  border-radius: 5px;
+  position: relative;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: left;
+}
+.yith-shippo-address-validation-error.error {
+  background-color: rgba(152, 97, 97, 0.15);
+  border: 1px solid var(--yith-delete-outline-border);
+  box-shadow: none;
+  display: block !important;
+  color: var(--yith-delete-outline-border);
+  line-height: 1.5em;
+  padding: 15px 20px 15px 15px;
+  margin: 0 0 20px;
+}
+.yith-shippo-address-validation-error.success {
+  background: var(--yith-success-lightest);
+  border: 1px solid var(--yith-success-light);
+  color: var(--yith-content-text);
+  box-shadow: 1px 1px 2px var(--yith-success-lighter);
+  display: block !important;
+  padding: 15px 20px 15px 15px;
+  margin: 0 0 20px;
+}
+.yith-shippo-address-validation-error:before {
+  font-family: yith-icon;
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  font-size: 21px;
+  font-weight: 400;
+  display: none;
+}
+.yith-shippo-address-validation-error .notice-dismiss {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  color: var(--yith-success);
+  padding: 7px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.single-sender-info.description {
+  margin-bottom: 50px;
+}
+
+.yith-shippo-add-sender-wrapper {
+  display: none;
+}
+
+button.yith-shippo-add-sender {
+  margin-left: 15px !important;
+}
+
+div.yith-shippo-sender-info-address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  width: 460px;
+  margin-bottom: 25px;
+}
+div.yith-shippo-sender-info-address .yith-single-text.yith-single-text-wide {
+  width: 100%;
+  max-width: 100%;
+}
+div.yith-shippo-sender-info-address .yith-single-text.yith-single-text-wide span.select2.select2-container.select2-container--default {
+  width: 100% !important;
+}
+div.yith-shippo-sender-info-address.yith-shippo-sender-info-address-last {
+  grid-template-columns: 1fr;
+}
+div.yith-shippo-sender-info-address .yith-single-text {
+  width: 100% !important;
+  margin-right: 0 !important;
+}
+div.yith-shippo-sender-info-address .yith-single-text .is-empty {
+  border-color: red !important;
+}
+div.yith-shippo-sender-info-address .yith-single-text .empty-field {
+  color: red;
+  font-size: 0.8em;
+}
+div.yith-shippo-sender-info-address label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+div.yith-shippo-sender-info-address input {
+  width: 100% !important;
+}
+
+#yith-shippo-sender-info-shipping_zones--checkbox {
+  width: 18px !important;
+}
+
+#yith-shippo-sender-info-modal .inner-row {
+  margin-bottom: 25px !important;
+}
+#yith-shippo-sender-info-modal .form-row.form-row-wide.submit {
+  margin: 0;
+  padding: 0;
+}
+#yith-shippo-sender-info-modal button.submit.button-primary {
+  width: 100%;
+  padding: 5px !important;
+}
+
+.single-sender-info-wrapper {
+  display: inline-grid;
+  grid-template-columns: 240px 1fr;
+}
+.single-sender-info-wrapper .inner-row.yith-shippo-sender-checkbox {
+  padding: 10px 0 30px 0;
+}
+.single-sender-info-wrapper label {
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.yith-plugins_page_yith_shippo_shipping_for_woocommerce #plugin-fw-wc h2:first-child {
+  padding: 20px;
+}
+
+/** Shipping Rates */
+.yith-shippo-validator-modal--overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 52, 70, 0.64);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.yith-shippo-validator-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  padding: 25px 25px 35px;
+  max-width: calc(100% - 30px - 30px - 20px);
+  z-index: 15;
+}
+
+.yith-shippo-validator-modal.yith-shippo-validator-modal__more_products {
+  height: 355px;
+  min-height: 250px;
+}
+
+.yith-shippo-validator-modal--title {
+  color: #0069A4;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 10px 10px 10px;
+}
+
+.yith-shippo-success-validation--title:before {
+  content: "";
+  border: 5px solid #A1C746;
+  border-left: none;
+  border-top: none;
+  position: absolute;
+  left: 0;
+  width: 7px;
+  height: 12px;
+  transform: rotate(45deg) translate(25%, -25%);
+}
+
+.yith-shippo-validator-modal__success {
+  height: auto;
+  min-height: auto;
+}
+
+.yith-shippo-success-validation,
+.yith-shippo-failed-validation {
+  display: none;
+}
+
+.yith-shippo-validator-modal__success .yith-shippo-success-validation,
+.yith-shippo-validator-modal__failed .yith-shippo-failed-validation {
+  display: block;
+  padding: 0 10px;
+  border-radius: 15px;
+  min-height: 50px;
+  margin: 10px 10px 15px 0;
+  overflow-y: auto;
+  max-height: fit-content;
+}
+
+.yith-shippo-failed-validation__list {
+  margin-bottom: 20px;
+}
+
+.yith-shippo-success-validation--title {
+  color: #709D05;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.yith-shippo-modal-button.yith-shippo-close-button {
+  border-radius: 3px;
+  padding: 7px;
+  background-color: #00779B;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.yith-shippo-failed-validation {
+  background-color: initial !important;
+  max-height: calc(100% - 30px - 30px - 90px) !important;
+}
+
+.yith-shippo-failed-validation--message {
+  color: #a80000;
+}
+
+.yith-shippo-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.yith-shippo-invalid-products-list {
+  margin-top: 10px;
+}
+
+.yith-shippo-invalid-product {
+  margin: 5px 0 0 0;
+}
+
+.yith-shippo-invalid-products-list .yith-shippo-invalid-product a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.yith-shippo-invalid-products-list .yith-shippo-invalid-product a .yith-shippo-invalid-product-thumbnail img {
+  width: 50px;
+  height: 50px;
+}
+
+.yith-shippo-invalid-product a {
+  text-decoration: none;
+}
+
+/** Shipping Rule list START */
+#yith_shippo_shipping_for_woocommerce_shipping-rules .yith-plugin-fw__panel__option {
+  max-width: 100%;
+}
+#yith_shippo_shipping_for_woocommerce_shipping-rules #plugin-fw-wc-reset, #yith_shippo_shipping_for_woocommerce_shipping-rules #yith-plugin-fw-float-save-button.visible, #yith_shippo_shipping_for_woocommerce_shipping-rules .yith-plugin-fw__button--xxl.button-primary {
+  display: none !important;
+}
+
+#yith_shippo_shipping_rule_table:not(.no_item_found) {
+  max-width: 800px;
+}
+#yith_shippo_shipping_rule_table .no-items-found {
+  text-align: center;
+  padding: 120px 0;
+}
+#yith_shippo_shipping_rule_table .no-items-found .no-items-message:nth-child(2n+1) {
+  margin-bottom: 25px !important;
+}
+#yith_shippo_shipping_rule_table #doaction {
+  margin-left: 6px;
+}
+#yith_shippo_shipping_rule_table .list-table-title h2 {
+  display: none;
+}
+#yith_shippo_shipping_rule_table .yith-icon.yith-icon-shipping-rule {
+  background-size: 100%;
+  display: block;
+  height: 80px;
+  width: 92px;
+  margin: 0 auto 20px;
+  background: url(../images/empty-shipping-rule-list.svg) no-repeat center center transparent;
+}
+#yith_shippo_shipping_rule_table .no-items-message {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#yith_shippo_shipping_rule_table.no_item_found .list-table-title a.yith-add-button {
+  display: none;
+}
+
+#yith_shippo_rule_conditions .yith-shippo-condition-type .select2.select2-container {
+  min-width: 200px !important;
+  width: 300px !important;
+}
+#yith_shippo_rule_conditions .yith-plugin-fw-select2-wrapper {
+  width: auto !important;
+}
+#yith_shippo_rule_conditions .yith-plugin-fw-ajax-products-field-wrapper .select2.select2-container,
+#yith_shippo_rule_conditions .yith-plugin-fw-ajax-terms-field-wrapper .select2.select2-container {
+  min-width: 200px;
+  width: 334px !important;
+}
+#yith_shippo_rule_conditions .select2.select2-container {
+  min-width: 200px !important;
+  width: 200px !important;
+}
+#yith_shippo_rule_conditions .yith-plugin-fw-text-field-wrapper input {
+  max-width: 100px;
+}
+#yith_shippo_rule_conditions .yith-shippo-remove-rule {
+  font-size: 15px;
+}
+#yith_shippo_rule_conditions .yith-shippo-remove-rule:hover {
+  cursor: pointer;
+  color: var(--yith-link);
+}
+#yith_shippo_rule_conditions .yith-shippo-subcondition-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#yith_shippo_rule_conditions #yith_shippo_new_condition {
+  color: var(--yith-link);
+  text-decoration: none;
+}
+#yith_shippo_rule_conditions .yith-shippo-subcondition-row:first-child .yith-shippo-remove-rule {
+  display: none;
+}
+
+#yith_shippo_rule_fee {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 220px 100px 100px;
+  gap: 10px;
+}
+#yith_shippo_rule_fee .select2.select2-container {
+  min-width: 220px !important;
+}
+
+#yith_shippo_shipping_rule_detail h1.wp-heading-inline {
+  color: #2a8db0;
+  font-size: 16px;
+  font-weight: 600;
+}
+#yith_shippo_shipping_rule_detail form .required {
+  border-color: red;
+}
+
+/** Shipping Rule list END */
+@media screen and (max-width: 782px) {
+  .yith-plugins_page_yith_shippo_shipping_for_woocommerce .single-sender-info-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .yith-plugins_page_yith_shippo_shipping_for_woocommerce .single-sender-info-wrapper #yith-shippo-sender-info {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+  .yith-plugins_page_yith_shippo_shipping_for_woocommerce .single-sender-info-wrapper #yith-shippo-sender-info input {
+    width: 85% !important;
+  }
+  .yith-plugins_page_yith_shippo_shipping_for_woocommerce .single-sender-info-wrapper .yith-shippo-sender-info-address {
+    grid-template-columns: 1fr;
+  }
+  .yith-plugins_page_yith_shippo_shipping_for_woocommerce .single-sender-info-wrapper .yith-shippo-sender-info-address input, .yith-plugins_page_yith_shippo_shipping_for_woocommerce .single-sender-info-wrapper .yith-shippo-sender-info-address select {
+    width: 85% !important;
+  }
+  .yith-plugins_page_yith_shippo_shipping_for_woocommerce .single-sender-info-wrapper .yith-shippo-sender-checkbox {
+    width: 80%;
+    line-height: 2em;
+  }
+}
+.yith-plugin-fw__panel__section__description {
+  margin-bottom: 15px;
+}
+
+/* ORDER META BOX */
+#yith-shippo-order-shippings .postbox-header {
+  border-bottom: none !important;
+}
+#yith-shippo-order-shippings .postbox-header h2 {
+  color: #2a8db0;
+  font-size: 14px;
+  font-weight: 600;
+}
+#yith-shippo-order-shippings .postbox-header .hndle {
+  cursor: pointer;
+}
+#yith-shippo-order-shippings .postbox-header .handle-actions {
+  display: none !important;
+}
+#yith-shippo-order-shippings .postbox-header h2:hover {
+  cursor: default;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-form-field {
+  margin-bottom: 20px;
+}
+#yith-shippo-order-shippings #yith-shippo-add-new-shipping {
+  background-color: #E3EFF3;
+  border: 1px solid #D7E3E7;
+  box-shadow: 0 2px 10px 5px rgba(145, 191, 227, 0.1);
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+#yith-shippo-order-shippings #yith-shippo-add-new-shipping:hover {
+  cursor: pointer;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box {
+  padding: 0 20px;
+  border: 1px solid #c3c4c7;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box--title {
+  position: relative;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box--title h3 {
+  font-size: 12px;
+  margin: 0;
+  padding: 20px 66px 20px 0;
+  display: inline-block;
+  position: relative;
+  min-width: 173px;
+  box-sizing: border-box;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box--toggle {
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  color: #c3c4c7;
+  cursor: pointer;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box--title:hover {
+  cursor: pointer;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box .yith-shippo-shipping-section-box--toggle span {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateX(50%) translateY(-50%);
+  transition: transform 0.3s;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box .yith-shippo-shipping-section-box--toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box.yith-shippo-shipping-section-box--closed .yith-shippo-shipping-section-box--content {
+  display: none;
+}
+#yith-shippo-order-shippings .yith-shippo-shipping-section-box.yith-shippo-shipping-section-box--closed .yith-shippo-shipping-section-box--toggle span {
+  transform: translateX(50%) translateY(-50%) rotateZ(180deg);
+}
+#yith-shippo-order-shippings .yith-plugin-fw-inline-fields-field-wrapper .option-element label {
+  margin-left: 5px;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-inline-fields-field-wrapper .option-element.hidden {
+  display: none;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-inline-fields-field-wrapper .option-element .yith-plugin-fw-field-wrapper {
+  margin-top: 10px;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-inline-fields-field-wrapper .option-element .yith-plugin-fw-field-wrapper .select2.select2-container {
+  width: 300px !important;
+}
+#yith-shippo-order-shippings .yith-shippo-small-text {
+  width: 70px !important;
+  min-width: auto;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-parce-dimension-field-wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 300px 100px 200px;
+  gap: 10px;
+}
+#yith-shippo-order-shippings .yith-dimension-inline-fields {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 70px 10px 70px 10px 70px 40px;
+  gap: 10px;
+}
+#yith-shippo-order-shippings .yith-weight-inline-fields {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 70px 60px 100px;
+  gap: 10px;
+}
+#yith-shippo-order-shippings .parcel-dimension {
+  margin-top: -10px;
+}
+#yith-shippo-order-shippings .yith-shippo-total-weight .total_weight {
+  width: 60px;
+  text-align: center;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  padding: 8px 10px;
+  box-shadow: none;
+  color: #716269;
+}
+#yith-shippo-order-shippings .yith-shippo-total-weight .total_weight_value {
+  margin-right: 5px;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-content {
+  grid-template-columns: 100px 300px 100px;
+  gap: 10px;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-empty-state-wrapper {
+  grid-template-columns: 500px auto;
+  padding: 20px;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-content,
+#yith-shippo-order-shippings .yith-plugin-fw-choose-service-field-wrapper .yith-shippo-service-empty-state-wrapper {
+  display: grid;
+  align-items: center;
+  border: 1px solid #c3c4c7;
+  min-height: 80px;
+  width: fit-content;
+  min-width: 500px;
+  border-radius: 10px;
+}
+#yith-shippo-order-shippings .yith-shippo-service-image {
+  margin: 20px;
+}
+#yith-shippo-order-shippings .yith-plugin-fw-choose-service-field-wrapper img {
+  width: 50px;
+}
+#yith-shippo-order-shippings .yith-shippo-edit-service {
+  text-decoration: none;
+  text-align: right;
+  margin-right: 20px;
+}
+#yith-shippo-order-shippings .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row label {
+  display: none;
+}
+#yith-shippo-order-shippings .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row:first-child label {
+  display: block;
+}
+#yith-shippo-order-shippings .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row:first-child .yith_shippo_currency {
+  margin-top: 30px;
+}
+#yith-shippo-order-shippings .yith-shippo-producs-shipping-list .yith-shippo-product-shipping--row:first-child .yith-shippo-remove-rule {
+  display: none;
+}
+#yith-shippo-order-shippings .yith-shippo-remove-rule {
+  font-size: 15px;
+}
+#yith-shippo-order-shippings .yith-shippo-remove-rule:hover {
+  cursor: pointer;
+  color: var(--yith-link);
+}
+#yith-shippo-order-shippings .yith-shippo-new-product {
+  margin-top: 15px;
+  margin-left: 5px;
+  display: none;
+}
+#yith-shippo-order-shippings .yith-shippo-new-product a {
+  text-decoration: none;
+}
+#yith-shippo-order-shippings .yith-shippo-service-days.hide,
+#yith-shippo-order-shippings .yith-shippo-service-empty-state-wrapper.hide,
+#yith-shippo-order-shippings .yith-shippo-service-content.hide,
+#yith-shippo-order-shippings .yith-tariff-number.hide,
+#yith-shippo-order-shippings .yith-country-origin.hide {
+  display: none;
+}
+#yith-shippo-order-shippings .yith-shippo-no-service-message {
+  font-style: italic;
+}
+#yith-shippo-order-shippings .blockUI.blockOverlay {
+  opacity: 0.6 !important;
+}
+#yith-shippo-order-shippings .yith-shippo-delete-shipping {
+  text-decoration: none;
+  display: inline-block;
+}
+#yith-shippo-order-shippings .yith-icon-trash.yith-shippo-delete-shipping {
+  color: red;
+}
+#yith-shippo-order-shippings .yith-shippo-rate-confirmed-view {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50px 25% 50% 10%;
+  gap: 2%;
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+#yith-shippo-order-shippings .yith-shippo-rate-confirmed-view .yith-shippo-rate-confirmed-products-label {
+  font-weight: bold;
+}
+#yith-shippo-order-shippings .yith-shippo-rate-confirmed-view img {
+  width: 50px;
+}
+#yith-shippo-order-shippings .yith-shippo-rate-confirmed-actions {
+  text-align: right;
+}
+#yith-shippo-order-shippings .yith-shippo-rate-confirmed--service-info .yith-shippo-service-days,
+#yith-shippo-order-shippings .yith-shippo-rate-confirmed-view .yith-shippo-rate-confirmed-product-list {
+  margin-top: 10px;
+}
+
+.yith-shippo-service-popup .yith-shippo-service-popup-row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 130px 130px 190px;
+  gap: 5px;
+  border: 1px solid #c3c4c7;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup-row .yith-icon-check {
+  display: none;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup-row:hover {
+  cursor: pointer;
+  border-color: #94d0e5;
+}
+.yith-shippo-service-popup .yith-shippo-service-image-popup {
+  margin: 20px;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup-row img {
+  width: 50px;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup-row.service-checked {
+  position: relative;
+  margin-top: 20px;
+  border-color: #94d0e5;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup-row.service-checked .yith-icon-check {
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  top: -10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--yith-primary);
+  color: #fff;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup-row.service-checked .yith-icon-check:before {
+  font-size: 13px;
+  padding-left: 6px;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup--extra .yith.shippo-service-popup--price {
+  font-weight: bold;
+}
+.yith-shippo-service-popup .yith-shippo-service-popup--extra {
+  text-align: right;
+}
+
+.yith-plugin-fw__confirm__button--cancel.yith-shippo-hide-cancel-button {
+  display: none;
+}
+
+.yith-shippo-tracking-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 0.9em;
+  margin: 20px 20px 10px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+.yith-shippo-tracking-info small {
+  display: block;
+  margin-top: 10px;
+}
+.yith-shippo-tracking-info a {
+  text-decoration: none;
+}
+.yith-shippo-tracking-info .yith-shippo-tracking--service-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.yith-shippo-tracking-info .yith-shippo-tracking--service-info img.yith-shippo-tracking--service-image {
+  width: 50px;
+}
+.yith-shippo-tracking-info .yith-shippo-tracking-block-label {
+  font-weight: 600;
+}
+.yith-shippo-tracking-info .yith-shippo-tracking--check-for-updates a {
+  border-radius: 7px;
+  border: 1px solid rgb(35, 110, 183);
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.yith-shippo-tracking-info .yith-shippo-tracking--check-for-updates a .yith-icon {
+  font-size: 1.8em;
+}
+
+.yith-shippo-shipping-status-box {
+  width: 100%;
+}
+.yith-shippo-shipping-status-box .progressbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px 0 0;
+  margin-left: -10px;
+}
+.yith-shippo-shipping-status-box .progressbar.labels {
+  padding-top: 0;
+  margin-top: 0;
+  margin: 0 30px 20px 10px;
+  font-size: 0.9em;
+}
+.yith-shippo-shipping-status-box .progressbar.labels li {
+  flex-basis: 33%;
+}
+.yith-shippo-shipping-status-box .progressbar.labels li.transit {
+  text-align: center;
+}
+.yith-shippo-shipping-status-box .progressbar.labels li.delivered {
+  text-align: right;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li {
+  padding: 10px;
+  flex: 1;
+  position: relative;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li:last-child {
+  flex: 0;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li::after {
+  position: absolute;
+  content: "";
+  border-bottom: 1px dashed #ccc;
+  width: calc(100% - 70px);
+  top: 35px;
+  left: 70px;
+  z-index: 0;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li:first-child::after {
+  left: 70px;
+  width: calc(100% - 70px);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li:last-child::after {
+  content: none;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li.done::after {
+  border-bottom: 1px solid rgb(84, 139, 192);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li span.delivered.done {
+  color: RGB(115, 115, 0);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .inner-box {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .inner-box .inner-box-description {
+  position: absolute;
+  z-index: 2;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li.centered .inner-box-description {
+  position: absolute;
+  z-index: 2;
+  left: -50%;
+  text-align: center;
+  width: calc(100% + 30px);
+  padding: 0 10px;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li.centered.failure .status-step {
+  background-color: rgba(228, 179, 164, 0.2);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li.centered.failure .status-step .inner-circle {
+  background-color: RGB(192, 84, 84);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  position: relative;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step .inner-circle {
+  display: flex;
+  align-items: center;
+  width: 35px;
+  border-radius: 50%;
+  height: 35px;
+  justify-content: center;
+  background: rgb(226, 226, 226);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step .inner-circle.active {
+  background-color: rgb(84, 139, 192);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step .inner-circle.active .shippo-icon-transit {
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' height='100%25' viewBox='0 0 1850 1068' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-457.324,-612.662)'%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M194.551,162.666L407.569,162.666C408.389,162.666 409.054,163.331 409.054,164.151L409.054,352.419' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M243.534,352.419L194.551,352.419' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M437.98,352.419L313.225,352.419' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M410.129,187.913L481.647,187.913C483.192,187.913 484.628,188.711 485.443,190.024L535.796,271.146C537.19,273.392 537.929,275.982 537.929,278.625L537.929,336.007C537.929,345.071 530.581,352.419 521.517,352.419L506.959,352.419' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M506.959,353.008C506.959,372.056 491.518,387.497 472.47,387.497C453.422,387.497 437.98,372.056 437.98,353.008C437.98,333.96 453.422,318.519 472.47,318.519C491.518,318.519 506.959,333.96 506.959,353.008Z' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M313.225,353.008C313.225,372.056 297.784,387.497 278.736,387.497C259.687,387.497 244.247,372.056 244.247,353.008C244.247,333.96 259.687,318.519 278.736,318.519C297.784,318.519 313.225,333.96 313.225,353.008Z' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M498.628,217.997L457.769,217.997C455.711,217.997 454.157,219.861 454.525,221.885L463.119,270.333C463.523,272.551 465.456,274.163 467.71,274.163L535.878,274.163' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M148.055,196.958L194.321,196.958' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M164.212,237.348L213.553,237.348' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M149.309,318.128L213.997,318.128' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M125.385,277.738L191.488,277.738' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step .inner-circle.active .shippo-icon-delivered {
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' height='100%25' viewBox='0 0 1552 1530' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-8686.3,-7598.72)'%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2253.79,2098.1C2253.79,2140.71 2219.44,2175.25 2177.07,2175.25C2134.7,2175.25 2100.34,2140.71 2100.34,2098.1C2100.34,2055.5 2134.7,2020.96 2177.07,2020.96C2219.44,2020.96 2253.79,2055.5 2253.79,2098.1Z' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2223.26,2073.11L2168.9,2127.77C2167.68,2128.99 2165.71,2128.99 2164.49,2127.77L2134.42,2097.52' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2160.7,1905.87L2374.88,1905.87L2374.88,2121.91' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2250.05,2121.91L2374.01,2121.91C2374.57,2121.91 2375.11,2121.69 2375.5,2121.29L2441.35,2055.45C2441.4,2055.39 2441.44,2055.31 2441.44,2055.23L2441.44,1840.04C2441.44,1839.64 2441.11,1839.32 2440.71,1839.32L2226.27,1839.32C2225.71,1839.32 2225.17,1839.54 2224.78,1839.94L2159.94,1904.78C2159.24,1905.48 2158.84,1906.43 2158.84,1907.42L2158.84,2023.16' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2374.88,1905.87L2438.78,1841.97' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2305.77,1839.32L2239.21,1905.87L2239.21,1976.39C2239.21,1977.14 2239.82,1977.75 2240.58,1977.75L2294.65,1977.75C2295.4,1977.75 2296.01,1977.15 2296.01,1976.39L2296.07,1905.87L2362.62,1839.32' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step .inner-circle.active .shippo-icon-waiting {
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' height='100%25' viewBox='0 0 1589 1272' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-25739.3,-510.672)'%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6542.95,319.593C6542.95,353.805 6515.22,381.539 6481.01,381.539C6446.8,381.539 6419.06,353.805 6419.06,319.593C6419.06,285.381 6446.8,257.646 6481.01,257.646C6515.22,257.646 6542.95,285.381 6542.95,319.593Z' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6481.01,281.429L6481.01,319.593L6506.25,319.593' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6474.28,225.438L6474.28,203.134C6474.28,201.987 6473.6,200.948 6472.56,200.483L6333.13,138.489C6332.22,138.083 6331.18,138.089 6330.27,138.504L6194.74,200.474C6193.71,200.946 6193.05,201.977 6193.05,203.112L6193.05,347.539' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6193.05,202.671L6335.63,266.068' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6405.37,380.468L6337.25,411.616C6336.22,412.088 6335.03,412.095 6333.99,411.633L6193.05,348.961' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6335.63,266.068L6474.28,202.671' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6335.63,266.068L6335.63,411.616' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6400.43,170.452L6262.33,231.969' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step.current {
+  border-radius: 50%;
+  background: rgb(219, 231, 244);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step.current .inner-circle {
+  background-color: rgb(84, 139, 192);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step.current.delivered {
+  background: rgba(212, 224, 72, 0.4);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step.current.delivered .inner-circle {
+  background-color: RGB(183, 183, 0);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step.current.delivered .shippo-icon-delivered {
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' height='100%25' viewBox='0 0 1552 1530' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-8686.3,-7598.72)'%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2253.79,2098.1C2253.79,2140.71 2219.44,2175.25 2177.07,2175.25C2134.7,2175.25 2100.34,2140.71 2100.34,2098.1C2100.34,2055.5 2134.7,2020.96 2177.07,2020.96C2219.44,2020.96 2253.79,2055.5 2253.79,2098.1Z' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2223.26,2073.11L2168.9,2127.77C2167.68,2128.99 2165.71,2128.99 2164.49,2127.77L2134.42,2097.52' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2160.7,1905.87L2374.88,1905.87L2374.88,2121.91' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2250.05,2121.91L2374.01,2121.91C2374.57,2121.91 2375.11,2121.69 2375.5,2121.29L2441.35,2055.45C2441.4,2055.39 2441.44,2055.31 2441.44,2055.23L2441.44,1840.04C2441.44,1839.64 2441.11,1839.32 2440.71,1839.32L2226.27,1839.32C2225.71,1839.32 2225.17,1839.54 2224.78,1839.94L2159.94,1904.78C2159.24,1905.48 2158.84,1906.43 2158.84,1907.42L2158.84,2023.16' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2374.88,1905.87L2438.78,1841.97' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2305.77,1839.32L2239.21,1905.87L2239.21,1976.39C2239.21,1977.14 2239.82,1977.75 2240.58,1977.75L2294.65,1977.75C2295.4,1977.75 2296.01,1977.15 2296.01,1976.39L2296.07,1905.87L2362.62,1839.32' style='fill:none;stroke:rgb(255,255,255);stroke-width:13.98px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .status-step.current.delivered > span {
+  background-color: rgb(212, 224, 72);
+  color: RGB(212, 224, 72);
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .shippo-icon {
+  border-radius: 0;
+  display: inline-block;
+  width: 30px;
+  fill: RGB(169, 169, 169);
+  height: 30px;
+  background-color: transparent;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .shippo-icon-waiting {
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' height='100%25' viewBox='0 0 1589 1272' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-25739.3,-510.672)'%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6542.95,319.593C6542.95,353.805 6515.22,381.539 6481.01,381.539C6446.8,381.539 6419.06,353.805 6419.06,319.593C6419.06,285.381 6446.8,257.646 6481.01,257.646C6515.22,257.646 6542.95,285.381 6542.95,319.593Z' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6481.01,281.429L6481.01,319.593L6506.25,319.593' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6474.28,225.438L6474.28,203.134C6474.28,201.987 6473.6,200.948 6472.56,200.483L6333.13,138.489C6332.22,138.083 6331.18,138.089 6330.27,138.504L6194.74,200.474C6193.71,200.946 6193.05,201.977 6193.05,203.112L6193.05,347.539' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6193.05,202.671L6335.63,266.068' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6405.37,380.468L6337.25,411.616C6336.22,412.088 6335.03,412.095 6333.99,411.633L6193.05,348.961' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6335.63,266.068L6474.28,202.671' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6335.63,266.068L6335.63,411.616' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M6400.43,170.452L6262.33,231.969' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: cover;
+  width: 27px;
+  height: 22px;
+  display: block;
+  margin: 0 auto;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .shippo-icon-transit {
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' height='100%25' viewBox='0 0 1850 1068' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-457.324,-612.662)'%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M194.551,162.666L407.569,162.666C408.389,162.666 409.054,163.331 409.054,164.151L409.054,352.419' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M243.534,352.419L194.551,352.419' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M437.98,352.419L313.225,352.419' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M410.129,187.913L481.647,187.913C483.192,187.913 484.628,188.711 485.443,190.024L535.796,271.146C537.19,273.392 537.929,275.982 537.929,278.625L537.929,336.007C537.929,345.071 530.581,352.419 521.517,352.419L506.959,352.419' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M506.959,353.008C506.959,372.056 491.518,387.497 472.47,387.497C453.422,387.497 437.98,372.056 437.98,353.008C437.98,333.96 453.422,318.519 472.47,318.519C491.518,318.519 506.959,333.96 506.959,353.008Z' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M313.225,353.008C313.225,372.056 297.784,387.497 278.736,387.497C259.687,387.497 244.247,372.056 244.247,353.008C244.247,333.96 259.687,318.519 278.736,318.519C297.784,318.519 313.225,333.96 313.225,353.008Z' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M498.628,217.997L457.769,217.997C455.711,217.997 454.157,219.861 454.525,221.885L463.119,270.333C463.523,272.551 465.456,274.163 467.71,274.163L535.878,274.163' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M148.055,196.958L194.321,196.958' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M164.212,237.348L213.553,237.348' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M149.309,318.128L213.997,318.128' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M125.385,277.738L191.488,277.738' style='fill:none;stroke:rgb(169,169, 169);stroke-width:13.98px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: cover;
+  width: 30px;
+  height: 17px;
+  display: block;
+  margin: 0 auto;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .shippo-icon-delivered {
+  background-image: url("data:image/svg+xml, %3Csvg width='100%25' height='100%25' viewBox='0 0 1552 1530' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;'%3E%3Cg transform='matrix(1,0,0,1,-8686.3,-7598.72)'%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2253.79,2098.1C2253.79,2140.71 2219.44,2175.25 2177.07,2175.25C2134.7,2175.25 2100.34,2140.71 2100.34,2098.1C2100.34,2055.5 2134.7,2020.96 2177.07,2020.96C2219.44,2020.96 2253.79,2055.5 2253.79,2098.1Z' style='fill:none;stroke:rgb(169,169,169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2223.26,2073.11L2168.9,2127.77C2167.68,2128.99 2165.71,2128.99 2164.49,2127.77L2134.42,2097.52' style='fill:none;stroke:rgb(169,169,169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2160.7,1905.87L2374.88,1905.87L2374.88,2121.91' style='fill:none;stroke:rgb(169,169,169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2250.05,2121.91L2374.01,2121.91C2374.57,2121.91 2375.11,2121.69 2375.5,2121.29L2441.35,2055.45C2441.4,2055.39 2441.44,2055.31 2441.44,2055.23L2441.44,1840.04C2441.44,1839.64 2441.11,1839.32 2440.71,1839.32L2226.27,1839.32C2225.71,1839.32 2225.17,1839.54 2224.78,1839.94L2159.94,1904.78C2159.24,1905.48 2158.84,1906.43 2158.84,1907.42L2158.84,2023.16' style='fill:none;stroke:rgb(169,169,169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2374.88,1905.87L2438.78,1841.97' style='fill:none;stroke:rgb(169,169,169);stroke-width:13.98px;'/%3E%3C/g%3E%3Cg transform='matrix(4.16667,0,0,4.16667,0,0)'%3E%3Cpath d='M2305.77,1839.32L2239.21,1905.87L2239.21,1976.39C2239.21,1977.14 2239.82,1977.75 2240.58,1977.75L2294.65,1977.75C2295.4,1977.75 2296.01,1977.15 2296.01,1976.39L2296.07,1905.87L2362.62,1839.32' style='fill:none;stroke:rgb(169,169,169);stroke-width:13.98px;'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  width: 23px;
+  height: 22px;
+}
+.yith-shippo-shipping-status-box .progressbar.icons li .shippo-icon-error {
+  background-image: url("data:image/svg+xml, %3Csvg width='24px' height='24px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eattention / warning%3C/title%3E%3Cdefs%3E%3Crect id='path-1' x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3C/defs%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='attention-/-warning'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cg id='attention-/-warning-(Background/Mask)'%3E%3C/g%3E%3Cpath d='M2.73440707,21.0020618 C1.96407461,21.0020618 1.48301487,20.1676941 1.86897935,19.5010281 L11.1345339,3.49688998 C11.5196981,2.83160499 12.4802198,2.83160216 12.8653841,3.49688715 L22.1309395,19.5010262 C22.5169029,20.1676922 22.0358448,21.0020618 21.2655125,21.0020618 L2.73440707,21.0020618 C2.2208521,21.0020618 2.2208521,21.0020618 2.73440707,21.0020618 Z M12.999959,18 L12.0647125,18 C12.0433044,18.0013685 12.0217133,18.0020628 11.9999599,18.0020628 C11.9782066,18.0020628 11.9566154,18.0013685 11.9352074,18 L10.999959,18 L10.999959,16 L12.999959,16 L12.999959,18 L12.999959,18 Z M12.9999599,14.0020628 L10.9999599,14.0020628 L10.9999599,9.0020628 L12.9999599,9.0020628 L12.9999599,14.0020628 L12.9999599,14.0020628 Z' fill='%23fff' mask='url(%23mask-2)'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  width: 23px;
+  height: 22px;
+  margin-top: -4px;
+}
+
+.yith-shippo-shipping-tracking-history {
+  margin: 20px 0;
+}
+.yith-shippo-shipping-tracking-history a {
+  text-decoration: none;
+}
+.yith-shippo-shipping-tracking-history a i.yith-icon {
+  font-size: 10px;
+  margin-left: 5px;
+  font-weight: 600;
+  margin-top: 5px;
+  display: inline-block;
+  transition: all 1s;
+}
+
+.yith-shippo-tracking-history-list {
+  margin-top: 50px;
+  display: none;
+}
+.yith-shippo-tracking-history-list li {
+  position: relative;
+  border-left: 1px solid #548BC0;
+  padding: 0 0 50px 20px;
+  margin: 0;
+}
+.yith-shippo-tracking-history-list li:last-child.failure, .yith-shippo-tracking-history-list li:last-child.failure .description {
+  color: RGB(145, 0, 0);
+}
+.yith-shippo-tracking-history-list li:last-child.failure:before {
+  background-color: RGB(198, 102, 99);
+}
+.yith-shippo-tracking-history-list li:before {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  content: "";
+  display: block;
+  top: 0;
+  left: -20px;
+  background-color: #548BC0;
+  border-radius: 50%;
+  left: -5px;
+}
+.yith-shippo-tracking-history-list li:last-child {
+  border: none;
+}
+.yith-shippo-tracking-history-list li .date {
+  font-weight: 600;
+  display: block;
+  top: -5px;
+  position: inherit;
+}
+.yith-shippo-tracking-history-list li .description {
+  margin-top: 0;
+}
+.yith-shippo-tracking-history-list li .location {
+  opacity: 0.7;
+  font-size: 0.8em;
+}
+
+ul[id^=select2-yith-shippo-product] .select2-results__option[aria-disabled=true] {
+  color: #d0cece;
+}
+
+/* END ORDER META BOX */
+.yith-shippo-shipping-count {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.yith-shippo-shipment-service-label, .yith-shippo-shipment-status-label {
+  font-weight: 600;
+}
+
+.yith-shippo-shipment-service, .yith-shippo-shipment-status {
+  line-height: 1.6;
+  padding-top: 7px;
+}
+
+.yith-shippo-shipment-tracking-container:not(:first-child) {
+  margin-top: 10px;
+  border: 1px solid #cbcbcb;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  padding-top: 10px;
+}
+
+.yith-shippo-shipment-tracking-not-shipped .not-shipped {
+  font-style: italic;
+  color: #7d7d7d;
+}
+
+.yith-shippo-shipping-zones .yith-plugin-fw-checkbox-array__row input {
+  display: none;
+}
+.yith-shippo-shipping-zones .yith-plugin-fw-checkbox-array__row {
+  float: left;
+  margin-bottom: 5px;
+}
+.yith-shippo-shipping-zones .yith-plugin-fw-checkbox-array__row span {
+  padding: 8px 20px !important;
+  display: inline-block !important;
+  border: 1px solid #d8d8d8;
+  margin: 0 10px 0 0 !important;
+  border-radius: 8px;
+}
+.yith-shippo-shipping-zones .yith-plugin-fw-checkbox-array__row span:hover {
+  cursor: pointer;
+}
+.yith-shippo-shipping-zones .yith-plugin-fw-checkbox-array__row:not(.deselected) span:hover, .yith-shippo-shipping-zones .yith-plugin-fw-checkbox-array__row.selected span {
+  background: var(--yith-primary);
+  color: var(--yith-primary-text);
+  border: 1px solid var(--yith-primary);
+}
+.yith-shippo-shipping-zones .yith-shipping-zone-select-all {
+  clear: both;
+  padding-top: 10px;
+}
+.yith-shippo-shipping-zones .yith-shipping-zone-select-all .yith-plugin-fw-field-wrapper.yith-plugin-fw-checkbox-field-wrapper {
+  display: flex !important;
+  align-items: end;
+  gap: 5px;
+}
+
+#yith-bh-onboarding {
+  display: none;
+}
+#yith-bh-onboarding .single-sender-info {
+  display: none;
+}
+#yith-bh-onboarding table.form-table select {
+  width: 100% !important;
+}
+#yith-bh-onboarding tr.yith-plugin-fw-panel-wc-row.sender-info > td {
+  padding: 20px 0 0 0 !important;
+}
+
+@media screen and (max-width: 782px) {
+  #yith-bh-onboarding #yith_shippo_sandbox_token {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding #yith-bh-onboarding tr.yith-plugin-fw-panel-wc-row.sender-info > td {
+    padding: 20px 20px !important;
+  }
+  #yith-bh-onboarding .yith-plugin-ui span.description {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper {
+    display: block;
+    padding: 20px;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper #yith-shippo-sender-info {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper #yith-shippo-sender-info input {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper .yith-shippo-sender-info-address {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper .yith-shippo-sender-info-address input, #yith-bh-onboarding .single-sender-info-wrapper .yith-shippo-sender-info-address select {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper .yith-shippo-sender-checkbox {
+    width: 100% !important;
+    line-height: 2em;
+  }
+  #yith-bh-onboarding .bh-onboarding-create-an-account-shippo td {
+    padding: 0 !important;
+  }
+  #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list, #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list li:before {
+    display: none;
+  }
+  #yith-bh-onboarding .yith-bh-onboarding-tabs__tab ul.yith-bh-onboarding-connect-list p {
+    padding: 8px 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  #yith-bh-onboarding .yith-plugin-ui span.description,
+  #yith-bh-onboarding #yith_shippo_sandbox_token {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper #yith-shippo-sender-info input {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper .yith-shippo-sender-info-address input, #yith-bh-onboarding .single-sender-info-wrapper .yith-shippo-sender-info-address select {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper .yith-shippo-sender-checkbox {
+    width: 100% !important;
+  }
+  #yith-bh-onboarding .single-sender-info-wrapper div.yith-shippo-sender-info-address .yith-single-text.yith-single-text-wide {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=admin.css.map */

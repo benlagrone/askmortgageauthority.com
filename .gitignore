@@ -1,6 +1,11 @@
 .env
+.deploy.env
 data/wp-config.php.backup
-data/wp-content/plugins
+data/wp-content/
 wordpress_data
 db_data
 .DS_Store
+backups/
+.deploy-state/
+automation/state/*
+!automation/state/.gitkeep

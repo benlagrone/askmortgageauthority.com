@@ -1,3 +1,4 @@
+# Standard WordPress.org plugins installed by scripts/install-plugins.sh.
 # One plugin slug or URL per line. Lines starting with # are ignored.
 akismet
 all-in-one-seo-pack
@@ -18,7 +19,8 @@ wordpress-seo
 wp-mail-smtp
 wpforms-lite
 youtube-embed-plus
-# Premium/custom sources (add zip URL/file path or host in a private repo):
+# Bundled premium/private plugins already live under custom/wp-content/plugins
+# and should stay commented here unless you move them to a downloadable source.
 # yith-paypal-payments-for-woocommerce-extended
 # yith-shippo-shippings-for-woocommerce-extended
 # yith-stripe-payments-for-woocommerce-extended

@@ -1,0 +1,246 @@
+# Copyright (C) 2023 YITH
+# This file is distributed under the same license as the YITH Stripe Payments for WooCommerce plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Stripe Client\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-stripe-payments-for-woocommerce\n"
+"POT-Creation-Date: 2023-07-10 11:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: YITH <plugins@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+"poedit: 1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Domain: yith-stripe-payments-for-woocommerce\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/models/abstracts/class-model.php:194
+#, php-format
+msgid "Please, choose a valid option for %s"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:201
+#, php-format
+msgid "Please, provide a valid email address for %s"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:208
+#, php-format
+msgid "Please, provide a valid value for %s"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:229
+#, php-format
+msgid "Please, make sure to enter a valid email address for %s"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:235
+#, php-format
+msgid "Please, make sure to enter a valid UUID for %s"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:243
+#, php-format
+msgid "Please, make sure to enter a valid URL address for %s"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:249
+#, php-format
+msgid "Please, make sure to enter a valid contry code for %s"
+msgstr ""
+
+#: includes/models/abstracts/class-model.php:265
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: includes/models/class-account.php:71 includes/models/class-token.php:76
+msgid "Site url"
+msgstr ""
+
+#: includes/models/class-account.php:78
+msgid "Stripe account id"
+msgstr ""
+
+#: includes/models/class-account.php:84
+msgid "Site country"
+msgstr ""
+
+#: includes/models/class-account.php:91
+msgid "Account environment"
+msgstr ""
+
+#: includes/models/class-account.php:97
+msgid "Account secret"
+msgstr ""
+
+#: includes/models/class-account.php:103
+msgid "Admin email"
+msgstr ""
+
+#: includes/models/class-account.php:109
+msgid "Onboarding link"
+msgstr ""
+
+#: includes/models/class-account.php:116
+msgid "Onboarding link expiration"
+msgstr ""
+
+#: includes/models/class-account.php:122
+msgid "\"Charges enabled\" flag"
+msgstr ""
+
+#: includes/models/class-account.php:128
+msgid "\"Details submitted\" flag"
+msgstr ""
+
+#: includes/models/class-account.php:134 includes/models/class-token.php:83
+msgid "Verification url"
+msgstr ""
+
+#: includes/models/class-account.php:141
+msgid "Webhook url"
+msgstr ""
+
+#: includes/models/class-account.php:148 includes/models/class-intent.php:209
+msgid "Return url"
+msgstr ""
+
+#: includes/models/class-account.php:156 includes/models/class-token.php:58
+msgid "Authentication token"
+msgstr ""
+
+#: includes/models/class-account.php:162 includes/models/class-token.php:64
+msgid "Token expiration"
+msgstr ""
+
+#: includes/models/class-customer.php:58
+msgid "Stripe customer id"
+msgstr ""
+
+#: includes/models/class-customer.php:64
+msgid "User id"
+msgstr ""
+
+#: includes/models/class-customer.php:70
+msgid "Customer environment"
+msgstr ""
+
+#: includes/models/class-customer.php:76
+msgid "Customer email"
+msgstr ""
+
+#: includes/models/class-customer.php:82
+msgid "Customer name"
+msgstr ""
+
+#: includes/models/class-customer.php:88
+msgid "Description"
+msgstr ""
+
+#: includes/models/class-customer.php:94 includes/models/class-intent.php:191
+msgid "Payment method"
+msgstr ""
+
+#: includes/models/class-customer.php:100
+msgid "Phone"
+msgstr ""
+
+#: includes/models/class-customer.php:106
+msgid "Address"
+msgstr ""
+
+#: includes/models/class-customer.php:112
+msgid "Metadata"
+msgstr ""
+
+#: includes/models/class-intent.php:99
+msgid "Intent id"
+msgstr ""
+
+#: includes/models/class-intent.php:105
+msgid "Intent amount"
+msgstr ""
+
+#: includes/models/class-intent.php:111
+msgid "Capturable amount"
+msgstr ""
+
+#: includes/models/class-intent.php:118
+msgid "Automatic methods flag"
+msgstr ""
+
+#: includes/models/class-intent.php:125
+msgid "Capture method"
+msgstr ""
+
+#: includes/models/class-intent.php:131
+msgid "Confirm flag"
+msgstr ""
+
+#: includes/models/class-intent.php:137
+msgid "Client secret"
+msgstr ""
+
+#: includes/models/class-intent.php:143
+msgid "Intent currency"
+msgstr ""
+
+#: includes/models/class-intent.php:149
+msgid "Customer"
+msgstr ""
+
+#: includes/models/class-intent.php:155
+msgid "Intent description"
+msgstr ""
+
+#: includes/models/class-intent.php:161
+msgid "Last payment error"
+msgstr ""
+
+#: includes/models/class-intent.php:167
+msgid "Last charge"
+msgstr ""
+
+#: includes/models/class-intent.php:173
+msgid "Mandate"
+msgstr ""
+
+#: includes/models/class-intent.php:179
+msgid "Intent metadata"
+msgstr ""
+
+#: includes/models/class-intent.php:185
+msgid "Next action details"
+msgstr ""
+
+#: includes/models/class-intent.php:197
+msgid "Payment method types"
+msgstr ""
+
+#: includes/models/class-intent.php:203
+msgid "Receipt email"
+msgstr ""
+
+#: includes/models/class-intent.php:216
+msgid "Setup future usage flag"
+msgstr ""
+
+#: includes/models/class-intent.php:222
+msgid "Status"
+msgstr ""
+
+#: includes/models/class-token.php:70
+msgid "Token lifetime"
+msgstr ""
+
+#: includes/rest-api/controllers/class-verify.php:46
+msgid "Unique ID of the request to validate"
+msgstr ""
